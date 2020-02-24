@@ -10,7 +10,7 @@ include "includes/head.php";
 include "includes/nav.php";
 ?>
 
-
+<p>test</p>
 
 <?php
 include "includes/footer.php";
