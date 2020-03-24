@@ -1,0 +1,71 @@
+/*----------------------------------------------*\
+-------------------- Fonts -----------------------
+\*----------------------------------------------*/
+
+/***************** Font Variables *****************/
+
+$fira: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Arial, sans-serif;
+$roboto: 'Roboto', 'Gill Sans', 'Gill Sans MT', Arial, sans-serif;
+
+/***************** Font Mixins *****************/
+
+// Fira
+@mixin fira-light {
+    font-family: $fira;
+    font-weight: 300;
+    font-style: normal;
+}
+@mixin fira-regular {
+    font-family: $fira;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin fira-medium {
+    font-family: $fira;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+// Roboto
+@mixin roboto-light {
+    font-family: $roboto;
+    font-weight: 300;
+    font-style: normal;
+}
+@mixin roboto-regular {
+    font-family: $roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin roboto-regular-italic {
+    font-family: $roboto;
+    font-weight: 400;
+    font-style: italic;
+}
+@mixin roboto-medium {
+    font-family: $roboto;
+    font-weight: 500;
+    font-style: normal;
+}
+@mixin roboto-bold {
+    font-family: $roboto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/***************** Font Style Mixins *****************/
+@mixin font-body {
+    @include roboto-regular;
+}
+
+@mixin font-title {
+    @include roboto-light;
+}
+
+@mixin font-title-caps {
+    @include font-title;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
