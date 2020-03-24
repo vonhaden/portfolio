@@ -72,4 +72,11 @@
   background-image: url("../img/cover-bg.jpg");
 }
 
+.testimonials .testimonial-slide {
+  padding: 0 80px;
+}
+.testimonials .testimonial-slide .testimonial-slide-content {
+  width: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,22 @@
 /*----------------------------------------------*\
 ------------------- Index ------------------------
 \*----------------------------------------------*/
-.banner {
-    height: 70vh;
+
+.web-details {
+    .links {
+        div {
+            a {
+                background-image: url("../img/cover-bg.jpg");
+            }
+        }
+    }
+}
+
+.testimonials {
+    .testimonial-slide {
+        padding: 0 80px;
+        .testimonial-slide-content {
+            width: auto;
+        }
+    }
 }
