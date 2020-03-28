@@ -67,5 +67,5 @@ $roboto: 'Roboto', 'Gill Sans', 'Gill Sans MT', Arial, sans-serif;
 @mixin font-title-caps {
     @include font-title;
     text-transform: uppercase;
-    letter-spacing: 0.75px;
+    letter-spacing: 2px;
 }

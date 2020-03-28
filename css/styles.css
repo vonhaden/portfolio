@@ -34,6 +34,51 @@
 /*----------------------------------------------*\
 -------------------- Buttons ---------------------
 \*----------------------------------------------*/
+.button {
+  font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 5px 20px;
+}
+
+.button-teal {
+  color: #fff;
+  background-color: #049898;
+  border: none;
+}
+.button-teal:hover {
+  color: #11666b;
+  background-color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+body {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.bg-grey-white {
+  background-color: #F8F8F8;
+}
+
+.bg-grey-light {
+  background-color: #d9d9d9;
+}
+
 /*--------------------------------------------------------------
 # Nav
 --------------------------------------------------------------*/
@@ -62,14 +107,72 @@
 /*----------------------------------------------*\
 -------------------- Footer ----------------------
 \*----------------------------------------------*/
+footer {
+  background-color: #049898;
+}
+
+.copyright {
+  background-color: #11666b;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.copyright p {
+  color: #049898;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.copyright p:nth-child(2) {
+  margin-top: 0;
+  font-size: 11px;
+}
+.copyright svg path {
+  fill: #049898;
+}
+
 /*--------------------------------------------------------------
 # Home
 --------------------------------------------------------------*/
 /*----------------------------------------------*\
 ------------------- Index ------------------------
 \*----------------------------------------------*/
-.web-details .links div a {
-  background-image: url("../img/cover-bg.jpg");
+.portfolio-showcase .links a {
+  text-decoration: none;
+}
+.portfolio-showcase .links .link-box-outer {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-showcase .links .link-box-outer .link-box-inner {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  transition: 0.4s;
+}
+.portfolio-showcase .links .link-box-outer .link-text {
+  font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 5px 20px;
+  color: #4c4c4c;
+  transition: 0.4s;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 15px;
+  z-index: 2;
+}
+.portfolio-showcase .links .link-box-outer:hover .link-box-inner {
+  transform: scale(1.3);
+}
+.portfolio-showcase .links .link-box-outer:hover .link-text {
+  color: #fff;
+  background-color: #7f7f7f;
 }
 
 .testimonials .testimonial-slide {
@@ -77,6 +180,47 @@
 }
 .testimonials .testimonial-slide .testimonial-slide-content {
   width: auto;
+}
+.testimonials .uk-dotnav a {
+  background-color: #d9d9d9;
+  border: none;
+}
+.testimonials .uk-dotnav a:hover {
+  background-color: #049898;
+}
+.testimonials .uk-dotnav .uk-active a {
+  background-color: #049898;
+}
+.testimonials img {
+  margin-bottom: 0;
+}
+.testimonials h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.testimonials h4 {
+  color: #049898;
+  font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.connect {
+  background-color: #4c4c4c;
+}
+.connect h2 {
+  color: #fff;
+}
+.connect svg {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.connect svg .poly {
+  fill: #7f7f7f;
 }
 
 /*# sourceMappingURL=styles.css.map */

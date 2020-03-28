@@ -1,3 +1,28 @@
 /*----------------------------------------------*\
 -------------------- Buttons ---------------------
 \*----------------------------------------------*/
+
+@mixin button-base {
+    @include fira-regular;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 20px;
+}
+
+// Base Button
+.button {
+    @include button-base
+}
+
+// Button Teal
+.button-teal {
+    color: $white;
+    background-color: $teal;
+    border: none;
+
+    &:hover {
+        color: $teal-dark-1;
+        background-color: $white;
+    }
+}

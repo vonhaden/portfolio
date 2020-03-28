@@ -1,0 +1,18 @@
+body {
+    @include font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include font-title-caps;
+}
+
+
+
+// Background color utility classes
+.bg-grey-white{
+    background-color: $grey-white;
+}
+
+.bg-grey-light{
+    background-color: $grey-light;
+}

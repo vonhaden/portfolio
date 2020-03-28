@@ -69,7 +69,7 @@
 <!-- BANNER -->
 <div class="banner uk-background-cover uk-light uk-flex"
      uk-height-viewport="offset-top: true"
-     uk-parallax="bgy: 250"
+     uk-parallax="bgy: 800"
      style="background-image: url('img/cover-bg.jpg');"
 >
     <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
@@ -80,7 +80,7 @@
 
 
 <!-- Who am I -->
-<div class="uk-section">
+<div class="uk-section bg-grey-white">
     <div class="uk-container">
         <h2>Who am I?</h2>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -89,40 +89,47 @@
 
 
 <!-- Web -->
-<div class="web-details uk-section uk-section-muted">
+<div class="portfolio-showcase web-showcase uk-section">
     <div class="uk-container">
-        <h3>Web</h3>
-        <div class="links uk-grid-match uk-child-width-1-3@m uk-text-center" uk-grid>
-            <div class="column">
-                <a href="#">
-                    <div>
-                        <p>Text</p>
-                    </div>
-                </a>
-            </div>
 
-            <div class="column">
-                <div>
-                    <p>Text</p>
-                </div>
-            </div>
+        <h2>Web</h2>
 
-            <div class="column">
-                <div>
-                    <p>Text</p>
+        <div class="links uk-child-width-1-3@m" uk-grid>
+
+            <a href="#">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/cover-bg.jpg" uk-img></div>
+                    <div class="link-text">Link Text</div>
                 </div>
-            </div>
+            </a>
+
+            <a href="#">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/cover-bg.jpg" uk-img></div>
+                    <div class="link-text">Link Text</div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/cover-bg.jpg" uk-img></div>
+                    <div class="link-text">Link Text</div>
+                </div>
+            </a>
 
         </div>
-        <button class="uk-button uk-button-default uk-align-right">See More</button>
+
+        <a href="#" class="uk-margin-top uk-button uk-button-default uk-align-right@m button button-teal">See More</a>
+
     </div>
 </div>
 
 
+
 <!-- Testimonials -->
-<div class="testimonials uk-section">
+<div class="testimonials uk-section bg-grey-white">
     <div class="uk-container">
-        <h2>Testimonials</h2>
+        <h2 class="uk-text-center">Testimonials</h2>
         <div class="uk-position-relative uk-visible-toggle"
              tabindex="-1"
              uk-slideshow="min-height: 300; max-height: 500">
@@ -169,10 +176,13 @@
 
 
 <!-- Connect -->
-<div class="uk-section">
-    <div class="uk-container uk-align-center">
-        <h2>Interested in Connecting?</h2>
-        <a href="#" class="uk-button uk-button-default">Send Email</a>
+<div class="connect uk-section">
+    <div class="uk-container">
+        <img src="img/paper-plane.svg" height="50"  class="uk-align-center" uk-svg>
+        <h2 class="uk-text-center">Interested in Connecting?</h2>
+        <div class="uk-flex uk-flex-center">
+            <a href="#" class="uk-button uk-button-default button button-teal">Send Email</a>
+        </div>
     </div>
 </div>
 
@@ -180,16 +190,16 @@
 <!---------------------- FOOTER ---------------------->
 <footer class="uk-section">
     <div class="uk-container">
-        <div>
+        <div class="uk-align-center uk-align-left@m uk-flex">
             <div>
-
+                <img src="img/AVH-Logo.svg" height="40" alt="logo" uk-svg>
             </div>
-            <div class="uk-dark">
+            <div>
                 <h5>Andrew Von Haden</h5>
                 <p>andrewvonhaden@gmail.com</p>
             </div>
         </div>
-        <div class="social-links">
+        <div class="uk-align-center uk-align-right@m social-links">
             <a href="#">
                 <i class="fab fa-github"></i>
             </a>
@@ -204,10 +214,10 @@
 </footer>
 
 <!---------------------- COPYRIGHT ---------------------->
-<div class="uk-section">
+<div class="copyright uk-section">
     <div class="uk-container">
-        <p>Handcrafted by Andrew Von Haden © twentytwenty</p>
-        <p>Made with uikit</p>
+        <p class="uk-text-center">Handcrafted by Andrew Von Haden © twentytwenty</p>
+        <p class="uk-text-center">Made with <img src="img/uikit.svg" alt="uikit." height="20" uk-svg></p>
     </div>
 </div>
 
