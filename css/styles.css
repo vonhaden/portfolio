@@ -85,17 +85,36 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------*\
 --------------------- Nav ------------------------
 \*----------------------------------------------*/
+.nav {
+  background-color: #4c4c4c !important;
+}
+.nav .uk-navbar {
+  font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nav .uk-navbar .uk-logo {
+  color: #fff;
+}
+.nav .uk-navbar .uk-navbar-right a {
+  color: #fff;
+}
+.nav .uk-navbar .uk-navbar-right a:hover {
+  color: #7fd1cd;
+}
 @media all and (min-width: 23.75em) and (max-width: 59.9375em) {
-  .uk-navbar .nav-links {
+  .nav .uk-navbar .nav-links {
     display: block;
     position: absolute;
     left: -40px;
     top: 80px;
     padding: 10px 30px;
-    background-color: #fff;
+    background-color: #4c4c4c;
     width: 100vw;
   }
-  .uk-navbar .nav-links a {
+  .nav .uk-navbar .nav-links a {
     justify-content: left;
     min-height: 0;
   }

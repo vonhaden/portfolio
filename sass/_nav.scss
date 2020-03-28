@@ -2,23 +2,48 @@
 --------------------- Nav ------------------------
 \*----------------------------------------------*/
 
-.uk-navbar {
+.nav {
+    background-color: $grey-dark !important;
 
-    @include mappy-bp(xs lg) {
-        .nav-links {
-            display: block;
-            position: absolute;
-            left: -40px;
-            top: 80px;
-            padding: 10px 30px;
-            background-color: $white;
-            width: 100vw;
+    .uk-navbar {
 
+        @include fira-light;
+        @include letter-spacing;
+        @include font-transform;
+
+        .uk-logo {
+            color: $white;
+        }
+
+        .uk-navbar-right {
             a {
-                justify-content: left;
-                min-height: 0;
+                color: $white;
+
+                &:hover {
+                    color: $teal-light-1;
+                }
             }
         }
+
+
+        // Mobile Nav
+        @include mappy-bp(xs lg) {
+            .nav-links {
+                display: block;
+                position: absolute;
+                left: -40px;
+                top: 80px;
+                padding: 10px 30px;
+                background-color: $grey-dark;
+                width: 100vw;
+
+                a {
+                    justify-content: left;
+                    min-height: 0;
+                }
+            }
+        }
+
     }
 
 }

@@ -64,8 +64,16 @@ $roboto: 'Roboto', 'Gill Sans', 'Gill Sans MT', Arial, sans-serif;
     @include roboto-light;
 }
 
+@mixin font-transform {
+    text-transform: uppercase;
+}
+
+@mixin letter-spacing {
+    letter-spacing: 2px;
+}
+
 @mixin font-title-caps {
     @include font-title;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    @include font-transform;
+    @include letter-spacing;
 }
