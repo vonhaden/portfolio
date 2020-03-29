@@ -16,7 +16,7 @@ include "includes/nav-transparent.php";
      uk-height-viewport="offset-top: true"
      style="background-image: url('img/cover-bg.jpg');"
 >
-    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+    <div class="uk-container uk-text-center uk-margin-auto uk-margin-auto-vertical">
         <img src="img/AVH-Logo.svg" height="200" alt="logo" class="uk-animation-scale-up" uk-svg>
         <h2 class="uk-animation-fade">I am a designer and photographer located in Southeast Wisconsin.</h2>
     </div>
