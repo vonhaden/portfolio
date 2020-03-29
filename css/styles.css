@@ -85,9 +85,10 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------*\
 --------------------- Nav ------------------------
 \*----------------------------------------------*/
-.nav {
-  background-color: #4c4c4c !important;
+.uk-navbar-container {
+  transition: 0.5s;
 }
+
 .nav .uk-navbar {
   font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
   font-weight: 300;
@@ -97,6 +98,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .uk-navbar .uk-logo {
   color: #fff;
+  font-size: 17px;
+  transition: 0.2s;
+}
+@media all and (min-width: 48em) {
+  .nav .uk-navbar .uk-logo {
+    font-size: 30px;
+  }
+}
+.nav .uk-navbar .uk-logo:hover {
+  color: #d9d9d9;
+}
+.nav .uk-navbar .uk-logo:hover svg {
+  color: #d9d9d9;
+}
+.nav .uk-navbar .uk-logo svg {
+  transition: 0.2s;
+  color: #049898;
+  margin-right: 20px;
 }
 .nav .uk-navbar .uk-navbar-right a {
   color: #fff;
@@ -110,13 +129,70 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     left: -40px;
     top: 80px;
-    padding: 10px 30px;
-    background-color: #4c4c4c;
+    padding: 20px 30px;
     width: 100vw;
   }
+  .nav .uk-navbar .nav-links li {
+    margin-bottom: 5px;
+  }
+  .nav .uk-navbar .nav-links li:last-of-type {
+    margin-bottom: 0;
+  }
   .nav .uk-navbar .nav-links a {
+    font-size: 16px;
     justify-content: left;
     min-height: 0;
+  }
+}
+@media all and (min-width: 75em) {
+  .nav .uk-navbar .nav-links a {
+    font-size: 18px;
+  }
+}
+
+.uk-navbar-transparent .uk-navbar .uk-logo {
+  color: #fff;
+}
+.uk-navbar-transparent .uk-navbar .uk-logo:hover {
+  color: #7fd1cd;
+}
+.uk-navbar-transparent .uk-navbar .uk-logo:hover svg {
+  color: #7fd1cd;
+}
+.uk-navbar-transparent .uk-navbar .uk-logo svg {
+  color: #fff;
+}
+.uk-navbar-transparent .uk-navbar .uk-navbar-right a {
+  color: #fff;
+}
+.uk-navbar-transparent .uk-navbar .uk-navbar-right a:hover {
+  color: #7fd1cd;
+}
+
+.uk-navbar-grey {
+  background-color: #4c4c4c !important;
+}
+.uk-navbar-grey .uk-navbar .uk-logo {
+  color: #fff;
+}
+.uk-navbar-grey .uk-navbar .uk-logo:hover {
+  color: #d9d9d9;
+}
+.uk-navbar-grey .uk-navbar .uk-logo:hover svg {
+  color: #d9d9d9;
+}
+.uk-navbar-grey .uk-navbar .uk-logo svg {
+  color: #049898;
+}
+.uk-navbar-grey .uk-navbar .uk-navbar-right a {
+  color: #fff;
+}
+.uk-navbar-grey .uk-navbar .uk-navbar-right a:hover {
+  color: #7fd1cd;
+}
+@media all and (min-width: 23.75em) and (max-width: 59.9375em) {
+  .uk-navbar-grey .uk-navbar .nav-links {
+    background-color: #4c4c4c;
   }
 }
 

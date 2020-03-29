@@ -2,8 +2,11 @@
 --------------------- Nav ------------------------
 \*----------------------------------------------*/
 
+.uk-navbar-container{
+    transition: 0.5s;
+}
+
 .nav {
-    background-color: $grey-dark !important;
 
     .uk-navbar {
 
@@ -13,6 +16,26 @@
 
         .uk-logo {
             color: $white;
+            font-size: 17px;
+            transition: 0.2s;
+
+            @include mappy-bp(md){
+                font-size: 30px;
+            }
+
+            &:hover {
+                color: $grey-light;
+
+                svg {
+                    color: $grey-light;
+                }
+            }
+
+            svg {
+                transition: 0.2s;
+                color: $teal;
+                margin-right: 20px;
+            }
         }
 
         .uk-navbar-right {
@@ -33,17 +56,113 @@
                 position: absolute;
                 left: -40px;
                 top: 80px;
-                padding: 10px 30px;
-                background-color: $grey-dark;
+                padding: 20px 30px;
                 width: 100vw;
 
+                li {
+                    margin-bottom: 5px;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+
+
                 a {
+                    font-size: 16px;
                     justify-content: left;
                     min-height: 0;
                 }
             }
         }
 
+        // Desktop Nav
+        @include mappy-bp(xl) {
+            .nav-links {
+
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+
     }
 
+}
+
+.uk-navbar-transparent {
+
+    .uk-navbar {
+
+
+        .uk-logo {
+            color: $white;
+
+            &:hover {
+                color: $teal-light-1;
+
+                svg {
+                    color: $teal-light-1;
+                }
+            }
+
+            svg {
+                color: $white;
+            }
+        }
+
+        .uk-navbar-right {
+            a {
+                color: $white;
+
+                &:hover {
+                    color: $teal-light-1;
+                }
+            }
+        }
+
+    }
+}
+
+.uk-navbar-grey {
+    background-color: $grey-dark !important;
+
+    .uk-navbar {
+
+
+        .uk-logo {
+            color: $white;
+
+            &:hover {
+                color: $grey-light;
+
+                svg {
+                    color: $grey-light;
+                }
+            }
+
+            svg {
+                color: $teal;
+            }
+        }
+
+        .uk-navbar-right {
+            a {
+                color: $white;
+
+                &:hover {
+                    color: $teal-light-1;
+                }
+            }
+        }
+
+
+        // Mobile Nav
+        @include mappy-bp(xs lg) {
+            .nav-links {
+                background-color: $grey-dark;
+            }
+        }
+
+    }
 }

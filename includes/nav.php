@@ -1,31 +1,32 @@
 <!---------------------- NAVBAR ---------------------->
-<div class="uk-navbar-container uk-sticky" uk-sticky>
+<div class="nav uk-navbar-container uk-sticky uk-navbar-grey" uk-sticky>
     <div class="uk-container uk-container-expand">
         <nav class="uk-navbar">
 
             <!-- LEFT -->
             <div class="uk-navbar-left">
-                <a href="" class="uk-navbar-item uk-logo">Andrew Von Haden</a>
+                <a href="../" class="uk-navbar-item uk-logo">
+                    <img src="img/AVH-Logo.svg" height="40" alt="logo" uk-svg>
+                    Andrew Von Haden
+                </a>
             </div>
 
             <!-- RIGHT -->
             <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav uk-visible">
+                <a uk-navbar-toggle-icon
+                   class="uk-navbar-toggle uk-hidden@m uk-icon">
+                </a>
+                <ul class="nav-links uk-navbar-nav">
                     <li>
-                        <a href="">Link 1</a>
+                        <a href="">Web</a>
                     </li>
                     <li>
-                        <a href="">Link 2</a>
+                        <a href="">Design</a>
                     </li>
                     <li>
-                        <a href="">Link 3</a>
+                        <a href="">About</a>
                     </li>
                 </ul>
-                <a uk-navbar-toggle-icon=""
-                   href=""
-                   uk-toggle=""
-                   class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon">
-                </a>
             </div>
 
         </nav>
