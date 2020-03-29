@@ -2,8 +2,158 @@
 -------------------- Footer ----------------------
 \*----------------------------------------------*/
 
-footer {
+.footer {
     background-color: $teal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .uk-container {
+        @include mappy-bp(lg) {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        &::before {
+            content: none;
+        }
+
+        &:after {
+            content: none;
+        }
+    }
+
+
+    .left {
+
+        .logo {
+            margin-right: 17px;
+        }
+        svg {
+            padding-top: 3px;
+            color: $white;
+        }
+
+        h5 {
+            @include fira-light;
+            color: $white;
+            font-size: 24px;
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+
+        p {
+            @include fira-light;
+            font-size: 20px;
+            @include font-transform;
+            color: $teal-light-1;
+            margin-top: 0;
+            line-height: 1;
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+
+        .social-links {
+            a {
+                text-decoration: none;
+                font-size: 23px;
+                color: $teal-light-1;
+                margin-right: 5px;
+                transition: 0.3s;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                &:hover,
+                &:focus {
+                    color: $white;
+                }
+
+            }
+        }
+
+    }
+
+    // Sizing for Mobile
+    @include mappy-bp(xs md) {
+        .left {
+            display: flex;
+            justify-content: center;
+
+            .logo {
+                margin-right: 13px;
+            }
+            svg {
+                padding-top: 3px;
+                height: 45px;
+            }
+
+            h5 {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .right {
+            margin-top: 25px;
+
+            .social-links {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                a {
+                    text-align: center;
+                    font-size: 25px;
+                    margin-right: 10px;
+                }
+            }
+
+        }
+
+    }
+
+    // Sizing for Desktop
+    @include mappy-bp(lg) {
+        .left {
+
+            .logo {
+                margin-right: 17px;
+            }
+            svg {
+                padding-top: 3px;
+            }
+
+            h5 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .right {
+            .social-links {
+                a {
+                    font-size: 23px;
+                    margin-right: 5px;
+                }
+            }
+
+        }
+
+    }
+
 }
 
 .copyright {
