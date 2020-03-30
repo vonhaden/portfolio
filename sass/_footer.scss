@@ -61,7 +61,6 @@
                 text-decoration: none;
                 font-size: 23px;
                 color: $teal-light-1;
-                margin-right: 5px;
                 transition: 0.3s;
 
                 &:last-of-type {
@@ -79,7 +78,7 @@
     }
 
     // Sizing for Mobile
-    @include mappy-bp(xs lg) {
+    @include mappy-bp(xxs lg) {
         .left {
             display: flex;
             justify-content: center;
@@ -113,7 +112,7 @@
                 a {
                     text-align: center;
                     font-size: 25px;
-                    margin-right: 10px;
+                    margin-right: 20px;
                 }
             }
 

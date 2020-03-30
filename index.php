@@ -11,8 +11,8 @@ include "includes/nav-transparent.php";
 ?>
 
 
-<!-- BANNER -->
-<div class="banner uk-background-fixed uk-background-cover uk-background-center-center uk-light uk-flex"
+<!-- HERO -->
+<div class="hero uk-background-fixed uk-background-cover uk-background-center-center uk-light uk-flex"
      uk-height-viewport="offset-top: true"
      style="background-image: url('img/cover-bg.jpg');"
 >
