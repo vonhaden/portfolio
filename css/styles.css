@@ -380,11 +380,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #7f7f7f;
 }
 
-.testimonials .testimonial-slide {
-  padding: 0 80px;
-}
-.testimonials .testimonial-slide .testimonial-slide-content {
-  width: auto;
+.testimonials .uk-slider-items {
+  height: auto;
 }
 .testimonials .uk-dotnav a {
   background-color: #d9d9d9;
@@ -400,18 +397,58 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 .testimonials h3 {
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  line-height: 1;
 }
 .testimonials h4 {
   color: #049898;
   font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  line-height: 1;
+}
+@media all and (min-width: 23.75em) {
+  .testimonials .testimonial-slide {
+    padding: 0 35px;
+  }
+  .testimonials h2 {
+    margin-bottom: 1.5em;
+  }
+  .testimonials h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonials h4 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.3;
+  }
+  .testimonials p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+@media all and (min-width: 30em) {
+  .testimonials .testimonial-slide {
+    padding: 0 100px;
+  }
+  .testimonials h2 {
+    margin-bottom: 1.5em;
+  }
+  .testimonials h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonials h4 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .testimonials p {
+    font-size: 16px;
+  }
 }
 
 .connect {
