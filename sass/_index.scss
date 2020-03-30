@@ -126,7 +126,7 @@
     // Desktop
     @include mappy-bp(sm) {
         .testimonial-slide {
-            padding: 0 100px;
+            padding: 0 60px;
         }
 
         h2 {
@@ -147,6 +147,12 @@
 
         p {
             font-size: 16px;
+        }
+    }
+
+    @include mappy-bp(md) {
+        .testimonial-slide {
+            padding: 0 110px;
         }
     }
 

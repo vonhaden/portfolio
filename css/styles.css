@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media all and (min-width: 30em) {
   .testimonials .testimonial-slide {
-    padding: 0 100px;
+    padding: 0 60px;
   }
   .testimonials h2 {
     margin-bottom: 1.5em;
@@ -448,6 +448,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .testimonials p {
     font-size: 16px;
+  }
+}
+@media all and (min-width: 48em) {
+  .testimonials .testimonial-slide {
+    padding: 0 110px;
   }
 }
 
