@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .right .social-links a:hover, .footer .right .social-links a:focus {
   color: #fff;
 }
-@media all and (min-width: 23.75em) and (max-width: 47.9375em) {
+@media all and (min-width: 23.75em) and (max-width: 59.9375em) {
   .footer .left {
     display: flex;
     justify-content: center;

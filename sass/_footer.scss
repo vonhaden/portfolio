@@ -79,7 +79,7 @@
     }
 
     // Sizing for Mobile
-    @include mappy-bp(xs md) {
+    @include mappy-bp(xs lg) {
         .left {
             display: flex;
             justify-content: center;
