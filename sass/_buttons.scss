@@ -26,3 +26,15 @@
         background-color: $white;
     }
 }
+
+
+.button-teal-on-white {
+    color: $white;
+    background-color: $teal;
+    border: none;
+
+    &:hover {
+        color: $white;
+        background-color: $teal-dark-1;
+    }
+}

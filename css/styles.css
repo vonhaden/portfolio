@@ -54,6 +54,16 @@
   background-color: #fff;
 }
 
+.button-teal-on-white {
+  color: #fff;
+  background-color: #049898;
+  border: none;
+}
+.button-teal-on-white:hover {
+  color: #fff;
+  background-color: #11666b;
+}
+
 /*--------------------------------------------------------------
 # Global
 --------------------------------------------------------------*/
@@ -422,6 +432,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   transition: 0.4s;
 }
+.portfolio-showcase .links .link-box-outer .link-box-inner:before {
+  transition: 0.4s;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(76, 76, 76, 0.7);
+}
 .portfolio-showcase .links .link-box-outer .link-text {
   font-family: "Fira Sans", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
   font-weight: 400;
@@ -437,10 +457,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
   z-index: 2;
 }
-.portfolio-showcase .links .link-box-outer:hover .link-box-inner {
+.portfolio-showcase .links .link-box-outer:hover .link-box-inner, .portfolio-showcase .links .link-box-outer:focus .link-box-inner {
   transform: scale(1.3);
 }
-.portfolio-showcase .links .link-box-outer:hover .link-text {
+.portfolio-showcase .links .link-box-outer:hover .link-box-inner:before, .portfolio-showcase .links .link-box-outer:focus .link-box-inner:before {
+  background: rgba(76, 76, 76, 0.1);
+}
+.portfolio-showcase .links .link-box-outer:hover .link-text, .portfolio-showcase .links .link-box-outer:focus .link-text {
   color: #fff;
   background-color: #7f7f7f;
 }
