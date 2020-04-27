@@ -1,0 +1,39 @@
+/*----------------------------------------------*\
+------------------ Portfolio ---------------------
+\*----------------------------------------------*/
+
+.portfolio {
+    .filter-links {
+        a {
+            line-height: 1;
+            padding: 12px;
+            color: $teal;
+            border: 1px solid $teal;
+            transition: 0.2s;
+            font-size: 12px;
+
+            @include mappy-bp(sm){
+                font-size: 13px;
+                padding: 13px;
+            }
+            @include mappy-bp(md){
+                font-size: 14px;
+                padding: 14px;
+            }
+
+            &:focus,
+            &:hover {
+                color: $teal-light-1;
+                border: 1px solid $teal-light-1;
+            }
+        }
+
+        .uk-active {
+            a {
+                background-color: $teal;
+                color: $white;
+                border: 1px solid $teal;
+            }
+        }
+    }
+}
