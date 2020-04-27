@@ -40,30 +40,30 @@ include "includes/nav-transparent.php";
 
         <h2>Web</h2>
 
-        <div class="links uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
+        <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
 
-            <a href="#">
+            <a href="#" class="image-link">
                 <div class="link-box-outer uk-height-medium">
                     <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/photo-critique-thumb.jpg" uk-img></div>
                     <div class="link-text">Photo Critique</div>
                 </div>
             </a>
 
-            <a href="#">
+            <a href="#" class="image-link">
                 <div class="link-box-outer uk-height-medium">
                     <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/datamed-thumb.jpg" uk-img></div>
                     <div class="link-text">Data Med</div>
                 </div>
             </a>
 
-            <a href="#">
+            <a href="#" class="image-link">
                 <div class="link-box-outer uk-height-medium">
                     <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/osbd-thumb.jpg" uk-img></div>
                     <div class="link-text">Milwaukee OSBD</div>
                 </div>
             </a>
 
-            <a href="#" class="uk-hidden@xs uk-visible@s uk-hidden@m">
+            <a href="#" class="image-link uk-hidden@xs uk-visible@s uk-hidden@m">
                 <div class="link-box-outer uk-height-medium">
                     <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
                     <div class="link-text">Midwest Connection</div>
