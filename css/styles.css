@@ -596,4 +596,40 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+/*----------------------------------------------*\
+------------------ Portfolio ---------------------
+\*----------------------------------------------*/
+.portfolio .filter-links a {
+  line-height: 1;
+  padding: 12px;
+  color: #049898;
+  border: 1px solid #049898;
+  transition: 0.2s;
+  font-size: 12px;
+}
+@media all and (min-width: 30em) {
+  .portfolio .filter-links a {
+    font-size: 13px;
+    padding: 13px;
+  }
+}
+@media all and (min-width: 48em) {
+  .portfolio .filter-links a {
+    font-size: 14px;
+    padding: 14px;
+  }
+}
+.portfolio .filter-links a:focus, .portfolio .filter-links a:hover {
+  color: #7fd1cd;
+  border: 1px solid #7fd1cd;
+}
+.portfolio .filter-links .uk-active a {
+  background-color: #049898;
+  color: #fff;
+  border: 1px solid #049898;
+}
+
 /*# sourceMappingURL=styles.css.map */
