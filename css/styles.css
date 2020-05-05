@@ -603,8 +603,9 @@ h1, h2, h3, h4, h5, h6 {
 ------------------ Portfolio ---------------------
 \*----------------------------------------------*/
 .portfolio .filter-links a {
+  text-transform: none;
   line-height: 1;
-  padding: 12px;
+  padding: 10px 12px;
   color: #049898;
   border: 1px solid #049898;
   transition: 0.2s;
@@ -613,13 +614,13 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (min-width: 30em) {
   .portfolio .filter-links a {
     font-size: 13px;
-    padding: 13px;
+    padding: 11px 13px;
   }
 }
 @media all and (min-width: 48em) {
   .portfolio .filter-links a {
     font-size: 14px;
-    padding: 14px;
+    padding: 12px 14px;
   }
 }
 .portfolio .filter-links a:focus, .portfolio .filter-links a:hover {
@@ -630,6 +631,121 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #049898;
   color: #fff;
   border: 1px solid #049898;
+}
+
+/*--------------------------------------------------------------
+# Project
+--------------------------------------------------------------*/
+/*----------------------------------------------*\
+------------------ Project ---------------------
+\*----------------------------------------------*/
+.project h1 {
+  color: #fff;
+  margin: 15px 0;
+}
+.project h2, .project h3, .project h4 {
+  font-weight: 400;
+  color: #11666b;
+}
+.project p {
+  font-size: 15px;
+}
+@media all and (min-width: 48em) {
+  .project p {
+    font-size: 16px;
+  }
+}
+.project p:last-of-type {
+  margin-bottom: 0;
+}
+.project .project-header {
+  background-color: #049898;
+}
+.project .project-header .breadcrumbs {
+  margin-bottom: 0;
+}
+.project .project-header .breadcrumbs :nth-child(n+2):not(.uk-first-column)::before {
+  color: #7fd1cd;
+  margin: 0 10px;
+}
+.project .project-header .breadcrumbs li a {
+  color: #fff;
+}
+.project .project-header .breadcrumbs li a:hover, .project .project-header .breadcrumbs li a:focus {
+  color: #d4f9f6;
+}
+.project .project-header .breadcrumbs li span {
+  color: #d4f9f6;
+}
+.project .project-header .tags ul {
+  display: flex;
+  padding: 0;
+}
+.project .project-header .tags ul li {
+  list-style: none;
+  color: #fff;
+  line-height: 1;
+  padding: 10px 12px;
+  border: 1px solid #fff;
+  transition: 0.2s;
+  font-size: 12px;
+  margin-right: 10px;
+}
+@media all and (min-width: 30em) {
+  .project .project-header .tags ul li {
+    font-size: 13px;
+    padding: 11px 13px;
+  }
+}
+@media all and (min-width: 48em) {
+  .project .project-header .tags ul li {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+}
+.project .project-header .feature-image {
+  margin: 30px 0;
+  text-align: center;
+}
+@media all and (min-width: 48em) {
+  .project .project-header .feature-image {
+    margin: 50px 0;
+  }
+}
+.project .project-header .feature-image img {
+  max-height: 500px;
+  max-width: 100%;
+}
+.project .project-header .project-description {
+  color: #fff;
+}
+.project .project-body .full-width-image {
+  width: 100%;
+}
+.project .project-gallery {
+  background-color: #F8F8F8;
+}
+.project .project-gallery .gallery-link a:hover {
+  background-color: #049898;
+}
+.project .project-gallery .gallery-link .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.project .project-gallery .gallery-link .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.uk-lightbox {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.uk-lightbox .uk-lightbox-toolbar {
+  background-color: transparent;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */

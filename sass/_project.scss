@@ -1,0 +1,168 @@
+/*----------------------------------------------*\
+------------------ Project ---------------------
+\*----------------------------------------------*/
+
+.project {
+
+    h1 {
+        color: $white;
+        margin: 15px 0;
+    }
+    h2, h3, h4 {
+        font-weight: 400;
+        color: $teal-dark-1;
+    }
+    p {
+        font-size: 15px;
+
+        @include mappy-bp(md){
+            font-size: 16px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0
+        }
+    }
+
+
+    // Project Header
+    .project-header {
+        background-color: $teal;
+
+        // Breadcrumbs
+        .breadcrumbs {
+            margin-bottom: 0;
+
+            // Dividers
+            & {
+                :nth-child(n+2):not(.uk-first-column)::before {
+                    color: $teal-light-1;
+                    margin: 0 10px;
+                }
+            }
+            li {
+                // Links
+                a {
+                    color: $white;
+
+                    &:hover,
+                    &:focus {
+                        color: $teal-light-2;
+                    }
+
+                }
+
+                // Active (breadcrumb end)
+                span {
+                    color: $teal-light-2;
+                }
+            }
+        }
+
+        // Project Tags
+        .tags {
+            ul {
+                display: flex;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    color: $white;
+                    line-height: 1;
+                    padding: 10px 12px;
+                    border: 1px solid $white;
+                    transition: 0.2s;
+                    font-size: 12px;
+                    margin-right: 10px;
+
+                    @include mappy-bp(sm){
+                        font-size: 13px;
+                        padding: 11px 13px;
+                    }
+                    @include mappy-bp(md){
+                        font-size: 14px;
+                        padding: 12px 14px;
+                    }
+
+                }
+            }
+        }
+
+        // Feature Image
+        .feature-image {
+            margin: 30px 0;
+            text-align: center;
+
+            @include mappy-bp(md){
+                margin: 50px 0;
+            }
+
+            img {
+                max-height: 500px;
+                max-width: 100%;
+            }
+        }
+
+        // Project Description
+        .project-description {
+            color: $white;
+        }
+    }
+
+
+
+    // Project Body
+    .project-body {
+        .full-width-image {
+            width: 100%;
+        }
+    }
+
+
+
+    // Project Gallery
+    .project-gallery {
+        background-color: $grey-white;
+
+
+        .gallery-link {
+            a {
+                &:hover {
+                    background-color: $teal;
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+
+
+    }
+
+}
+
+
+
+// Lightbox
+.uk-lightbox {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    .uk-lightbox-button {
+        //background-color: $teal;
+    }
+
+    .uk-lightbox-toolbar {
+        background-color: transparent;
+        color: $white;
+    }
+}
