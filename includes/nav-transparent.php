@@ -23,10 +23,10 @@
                     </a>
                     <ul class="nav-links uk-navbar-nav">
                         <li>
-                            <a href="">Web</a>
+                            <a href="web.php">Web</a>
                         </li>
                         <li>
-                            <a href="">Design</a>
+                            <a href="design.php">Design</a>
                         </li>
                         <li>
                             <a href="">About</a>
