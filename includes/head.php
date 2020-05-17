@@ -6,17 +6,17 @@
 
     <!-- Meta -->
     <meta name="description" content="<?= isset($metaDescription) ? $metaDescription : 'Andrew Von Haden\'s Web Potfolio' ?>">
-    <meta name="keywords" content="yale, education, art school">
+    <meta name="keywords" content="web development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fafafa">
 
     <!-- Manifest -->
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.2/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen">
 
     <!-- Favicon -->
 

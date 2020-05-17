@@ -5,7 +5,7 @@
         <!-- LEFT -->
         <div class="left uk-margin-remove-bottom uk-flex">
             <div class="logo">
-                <img src="img/AVH-Logo.svg" height="50" alt="logo" uk-svg>
+                <img src="/img/AVH-Logo.svg" height="50" alt="logo" uk-svg>
             </div>
             <div>
                 <h5>Andrew Von Haden</h5>
@@ -35,6 +35,6 @@
 <div class="copyright uk-section">
     <div class="uk-container">
         <p class="uk-text-center">Handcrafted by Andrew Von Haden © twentytwenty</p>
-        <p class="uk-text-center">Made with <img src="img/uikit.svg" alt="uikit." height="20" uk-svg></p>
+        <p class="uk-text-center">Made with <img src="/img/uikit.svg" alt="uikit." height="20" uk-svg></p>
     </div>
 </div>
