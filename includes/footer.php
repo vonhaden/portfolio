@@ -16,13 +16,13 @@
         <!-- RIGHT -->
         <div class="right">
             <div class="social-links">
-                <a href="#">
+                <a href="https://github.com/vonhaden" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/andrew-von-haden-1b7b7536" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/vontog/" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
