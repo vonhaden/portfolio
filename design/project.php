@@ -1,9 +1,17 @@
 <?php
-// Project Details
+// Project Title
 $projectTitle = 'Project Title';
+// Page Title
+$pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 
 // Project Type
-$projectType = 'web';
+$projectType = 'design';
+
+// Project Description
+$projectDescription = 'Lorem Ipsum';
+// set meta description
+$metaDescription = '';
+
 
 // Tags
 $projectTags = [
@@ -14,12 +22,11 @@ $projectTags = [
     'Bootstrap'
 ];
 
+
 // Feature Image
-$projectImage = '../img/laptop.png';
+$projectImage = '../img/projects/';
 $projectImageAlt = '';
 
-// Project Description
-$projectDescription = 'Lorem Ipsum';
 
 // Gallery
 // each array is an individual thumbnail item
@@ -36,16 +43,12 @@ $projectGallery = [
 ];
 
 
-// set page title
-$pageTitle = 'Andrew Von Haden | ' . $projectTitle;
-
-// set meta description
-$metaDescription = '';
-
 // includes
 include "../includes/head.php";
 include "../includes/nav.php";
 ?>
+
+
 
 
 <div class="project">
@@ -53,7 +56,7 @@ include "../includes/nav.php";
     <section class="project-body uk-section">
         <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/laptop.png" alt="" uk-img>
+            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/project/" alt="" uk-img>
 
             <div class="body-section uk-margin-medium-bottom">
                 <h2>Title</h2>
@@ -64,8 +67,6 @@ include "../includes/nav.php";
                 <h2>Title</h2>
                 <p>Lorem Ipsum.</p>
             </div>
-
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
 
         </div>
     </section>

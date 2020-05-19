@@ -3,7 +3,47 @@
 $pageTitle = 'Andrew Von Haden | Web Portfolio';
 
 // set meta description
-$metaDescription = '';
+$metaDescription = 'Andrew Von Haden\'s portfolio of web development projects.';
+
+$projects = [
+    array(
+        'name' => 'Midwest Connection',
+        'tags' => 'php mysql ui css',
+        'src' => '../img/projects/midwest-connection/thumb/midwest-home-desktop.jpg',
+        'link' => 'web/midwest-connection.php'
+    ),
+    array(
+        'name' => 'OSBD',
+        'tags' => 'sass boot',
+        'src' => '../img/projects/osbd/thumb/OSBD-Home-Desktop.jpg',
+        'link' => 'web/milwaukee-office-of-small-business-development.php'
+    ),
+    array(
+        'name' => 'Rock Paper Scissors',
+        'tags' => 'js jq css',
+        'src' => '../img/projects/rock-paper-scissors/thumb/Home.jpg',
+        'link' => 'web/rock-paper-scissors-lizard-spock.php'
+    ),
+    array(
+        'name' => 'Seating Chart Generator',
+        'tags' => 'js jq css',
+        'src' => '../img/projects/seating-chart-generator/thumb/Seating-Full.jpg',
+        'link' => 'web/seating-chart-generator.php'
+    ),
+    array(
+        'name' => 'Tozai Hotel',
+        'tags' => '',
+        'src' => '../img/projects/tozai-hotel/thumb/Tozai-Home-Desktop.jpg',
+        'link' => 'web/tozai-hotel.php'
+    ),
+    array(
+        'name' => '',
+        'tags' => '',
+        'src' => '',
+        'link' => ''
+    ),
+];
+
 
 // includes
 include "includes/head.php";
@@ -47,105 +87,30 @@ include "includes/nav.php";
                 <li uk-filter-control="[data-tags*='ui']">
                     <a href="#">UI Design</a>
                 </li>
+                <li uk-filter-control="[data-tags*='mysql']">
+                    <a href="#">MySQL</a>
+                </li>
             </ul>
 
             <div class="js-filter uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
-
-                <!-- Photo Critique -->
-                <a href="#" class="image-link" data-tags="js vue sass boot">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/photo-critique-thumb.jpg" uk-img></div>
-                        <div class="link-text">Photo Critique</div>
-                    </div>
-                </a>
-
-                <!-- Data Med -->
-                <a href="#" class="image-link" data-tags="ui">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/datamed-thumb.jpg" uk-img></div>
-                        <div class="link-text">Data Med</div>
-                    </div>
-                </a>
-
-                <!-- Milwaukee OSBD -->
-                <a href="#" class="image-link" data-tags="sass bootstrap js">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/osbd-thumb.jpg" uk-img></div>
-                        <div class="link-text">Milwaukee OSBD</div>
-                    </div>
-                </a>
-
-                <!-- Midwest Connection -->
-                <a href="#" class="image-link" data-tags="ui php css">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
-                        <div class="link-text">Midwest Connection</div>
-                    </div>
-                </a>
-
-                <!-- Rock Paper Scissors Lizard Spock -->
-                <a href="#" class="image-link" data-tags="js jq css">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/photo-critique-thumb.jpg" uk-img></div>
-                        <div class="link-text">Rock Paper Scissors Lizard Spock</div>
-                    </div>
-                </a>
-
-                <!-- Seating Chart Generator -->
-                <a href="#" class="image-link" data-tags="js jq css">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/datamed-thumb.jpg" uk-img></div>
-                        <div class="link-text">Seating Chart Generator</div>
-                    </div>
-                </a>
-
-                <!-- Tozai Hotel -->
-                <a href="#" class="image-link" data-tags="css js jq">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/osbd-thumb.jpg" uk-img></div>
-                        <div class="link-text">Tozai Hotel</div>
-                    </div>
-                </a>
-
-                <!-- WCTC -->
-                <a href="#" class="image-link" data-tags="ui">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
-                        <div class="link-text">WCTC</div>
-                    </div>
-                </a>
-
-                <!-- MKE Airport Report  -->
-                <a href="#" class="image-link" data-tags="js jq sass bootstrap">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
-                        <div class="link-text">MKE Airport Report </div>
-                    </div>
-                </a>
-
-                <!-- Yale School of Arts -->
-                <a href="#" class="image-link" data-tags="ui sass bootstrap php">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
-                        <div class="link-text">Yale School of Arts</div>
-                    </div>
-                </a>
-
-                <!-- Brandon Sanderson Site -->
-                <a href="#" class="image-link" data-tags="wp php">
-                    <div class="link-box-outer uk-height-medium">
-                        <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
-                        <div class="link-text">Brandon Sanderson</div>
-                    </div>
-                </a>
-
+                <?php
+                foreach ($projects as $project) {
+                    echo '<a href="';
+                    echo $project['link'];
+                    echo '" class="image-link" data-tags="';
+                    echo $project[tags];
+                    echo '"><div class="link-box-outer uk-height-medium"><div class="link-box-inner uk-background-cover" data-src="';
+                    echo $project['src'];
+                    echo '" uk-img></div><div class="link-text">';
+                    echo $project['name'];
+                    echo '</div></div></a>';
+                }
+                ?>
             </div>
 
         </div>
     </div>
 </div>
-
-
 
 <?php
 include "includes/footer.php";
