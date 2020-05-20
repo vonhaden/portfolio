@@ -13,6 +13,36 @@ $projects = [
         'link' => 'web/midwest-connection.php'
     ),
     array(
+        'name' => 'Kingdom Prep',
+        'tags' => 'wp php ui sass',
+        'src' => '../img/projects/kingdom-prep/thumb/kp-home-desktop.jpg',
+        'link' => 'web/kingdom-prep-lutheran-high-school.php'
+    ),
+    array(
+        'name' => 'Brandon Sanderson',
+        'tags' => 'wp php sass',
+        'src' => '../img/projects/brandon-sanderson/thumb/home.jpg',
+        'link' => 'web/brandon-sanderson.php'
+    ),
+    array(
+        'name' => 'DataMed',
+        'tags' => 'ui',
+        'src' => '../img/projects/datamed/thumb/home-desktop.jpg',
+        'link' => 'web/datamed.php'
+    ),
+    array(
+        'name' => 'WCTC',
+        'tags' => 'ui',
+        'src' => '../img/projects/wctc/thumb/course-search-tablet.jpg',
+        'link' => 'web/wctc.php'
+    ),
+    array(
+        'name' => 'Yale School of Art',
+        'tags' => 'ui php sass boot',
+        'src' => '../img/projects/yale/thumb/Yale-Home.jpg',
+        'link' => 'web/yale-school-of-art.php'
+    ),
+    array(
         'name' => 'OSBD',
         'tags' => 'sass boot',
         'src' => '../img/projects/osbd/thumb/OSBD-Home-Desktop.jpg',
@@ -25,22 +55,22 @@ $projects = [
         'link' => 'web/rock-paper-scissors-lizard-spock.php'
     ),
     array(
+        'name' => 'Tozai Hotel',
+        'tags' => 'ui css',
+        'src' => '../img/projects/tozai-hotel/thumb/Tozai-Home-Desktop.jpg',
+        'link' => 'web/tozai-hotel.php'
+    ),
+    array(
         'name' => 'Seating Chart Generator',
         'tags' => 'js jq css',
         'src' => '../img/projects/seating-chart-generator/thumb/Seating-Full.jpg',
         'link' => 'web/seating-chart-generator.php'
     ),
     array(
-        'name' => 'Tozai Hotel',
-        'tags' => '',
-        'src' => '../img/projects/tozai-hotel/thumb/Tozai-Home-Desktop.jpg',
-        'link' => 'web/tozai-hotel.php'
-    ),
-    array(
-        'name' => '',
-        'tags' => '',
-        'src' => '',
-        'link' => ''
+        'name' => 'Photo Critique',
+        'tags' => 'vue boot sass js',
+        'src' => '../img/projects/photo-critique/thumb/',
+        'link' => 'web/photo-critique.php'
     ),
 ];
 

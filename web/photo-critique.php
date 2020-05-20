@@ -1,6 +1,6 @@
 <?php
 // Project Title
-$projectTitle = 'Project Title';
+$projectTitle = 'Photo Critique';
 // Page Title
 $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 
@@ -17,22 +17,23 @@ $metaDescription = '';
 
 // Tags
 $projectTags = [
-    'HTML',
-    'SCSS',
     'Vue',
+    'BootstrapVue',
+    'SCSS',
     'JavaScript',
-    'Bootstrap'
+    'Firebase',
+    'HTML'
 ];
 
 
 // Feature Image
-$projectImage = '../img/projects/';
+$projectImage = '../img/projects/photo-critique/feature.webp';
 $projectImageAlt = '';
 
 
 // Gallery
 // each array is an individual thumbnail item
-$filePath = '../img/projects/project/';
+$filePath = '../img/projects/photo-critique/';
 $galleryPath = 'gallery/';
 $thumbnailPath = 'thumb/';
 $projectGallery = [
@@ -56,7 +57,7 @@ include "../includes/nav.php";
     <section class="project-body uk-section">
         <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/laptop.png" alt="" uk-img>
+            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/photo-critique/highlight-1.webp" alt="" uk-img>
 
             <div class="body-section uk-margin-medium-bottom">
                 <h2>Title</h2>
