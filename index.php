@@ -27,8 +27,15 @@ include "includes/nav-transparent.php";
 <!-- Who am I -->
 <div class="uk-section bg-grey-white">
     <div class="uk-container">
-        <h2>Who am I?</h2>
-        <p>Hi! My name is Andrew I am a full stack web developer and graphic designer located in Menomonee Falls, Wisconsin. I am a problem solver with the ability to transform vague ideas into client pleasing results. My strong grasp of both front-end and back end development combined with my deep background in many facets of graphic design allows me to tackle a huge range of different projects. I have a proven track record of delivering quality work while managing dozens of projects on tight deadlines. My knowledge of the entire Adobe Creative Cloud is vast and paired with my design skills to create unique branding, typography, and design layouts. I am constantly expanding knowledge of web development including HTML5, CSS and SCSS, jQuery,Vue JavaScript framework, PHP, SQL and NoSQL databases, and WordPress. Pursing perfection is what drives me in my work. </p>
+        <div class="uk-child-width-expand" uk-grid>
+            <div class="uk-width-1-1 uk-width-2-3@s uk-width-2-3@m uk-width-4-5@l">
+                <h2>Who am I?</h2>
+                <p>Hi! My name is Andrew I am a full stack web developer and graphic designer located in Menomonee Falls, Wisconsin. I am a problem solver with the ability to transform vague ideas into client pleasing results. My strong grasp of both front-end and back end development combined with my deep background in many facets of graphic design allows me to tackle a huge range of different projects. I have a proven track record of delivering quality work while managing dozens of projects on tight deadlines. My knowledge of the entire Adobe Creative Cloud is vast and paired with my design skills to create unique branding, typography, and design layouts. I am constantly expanding knowledge of web development including HTML5, CSS and SCSS, jQuery,Vue JavaScript framework, PHP, SQL and NoSQL databases, and WordPress. Pursing perfection is what drives me in my work. </p>
+            </div>
+            <div>
+                <img src="img/andrew.webp" uk-img>
+            </div>
+        </div>
     </div>
 </div>
 
