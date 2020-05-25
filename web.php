@@ -66,12 +66,12 @@ $projects = [
         'src' => '../img/projects/seating-chart-generator/thumb/Seating-Full.jpg',
         'link' => 'web/seating-chart-generator.php'
     ),
-    array(
-        'name' => 'Photo Critique',
-        'tags' => 'vue boot sass js',
-        'src' => '../img/projects/photo-critique/thumb/',
-        'link' => 'web/photo-critique.php'
-    ),
+//    array(
+//        'name' => 'Photo Critique',
+//        'tags' => 'vue boot sass js',
+//        'src' => '../img/projects/photo-critique/thumb/',
+//        'link' => 'web/photo-critique.php'
+//    ),
 ];
 
 

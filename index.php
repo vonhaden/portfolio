@@ -17,7 +17,7 @@ include "includes/nav-transparent.php";
      style="background-image: url('img/cover-bg.jpg');"
 >
     <div class="uk-container uk-text-center uk-margin-auto uk-margin-auto-vertical">
-        <img src="img/AVH-Logo.svg" height="200" alt="logo" class="uk-animation-scale-up" uk-svg>
+        <img src="img/AVH-Logo.svg" height="200" width="175" alt="logo" class="uk-animation-scale-up" uk-svg>
         <h2 class="uk-animation-fade">I am a full stack web developer and designer from Southeast Wisconsin.</h2>
     </div>
 </div>
@@ -137,7 +137,7 @@ include "includes/nav-transparent.php";
 <!-- Connect -->
 <div class="connect uk-section">
     <div class="uk-container">
-        <img src="img/paper-plane.svg" height="50"  class="uk-align-center" uk-svg>
+        <img src="img/paper-plane.svg" width="69" height="50"  class="uk-align-center" uk-svg>
         <h2 class="uk-text-center">Interested in Connecting?</h2>
         <div class="uk-flex uk-flex-center">
             <a href="#" class="uk-button uk-button-default button button-teal">Send Email</a>

@@ -33,5 +33,4 @@ $(document).ready(function () {
         $('.nav-links').slideToggle('slow');
     });
 
-
 });

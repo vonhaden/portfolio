@@ -3,7 +3,7 @@
     <!-- LEFT -->
     <div class="uk-navbar-left">
         <a href="/" class="uk-navbar-item uk-logo">
-            <img src="/img/AVH-Logo.svg" height="40" alt="logo" uk-svg>
+            <img src="/img/AVH-Logo.svg" width="26" height="30" alt="logo" uk-svg>
             Andrew Von Haden
         </a>
     </div>
