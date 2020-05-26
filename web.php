@@ -19,6 +19,12 @@ $projects = [
         'link' => 'web/kingdom-prep-lutheran-high-school.php'
     ),
     array(
+        'name' => 'Costog',
+        'tags' => 'vue boot sass js',
+        'src' => '../img/projects/costog/thumb/Costog-Home-Desktop-1280p.webp',
+        'link' => 'web/costog.php'
+    ),
+    array(
         'name' => 'Brandon Sanderson',
         'tags' => 'wp php sass',
         'src' => '../img/projects/brandon-sanderson/thumb/home.jpg',
@@ -66,12 +72,6 @@ $projects = [
         'src' => '../img/projects/seating-chart-generator/thumb/Seating-Full.jpg',
         'link' => 'web/seating-chart-generator.php'
     ),
-//    array(
-//        'name' => 'Photo Critique',
-//        'tags' => 'vue boot sass js',
-//        'src' => '../img/projects/photo-critique/thumb/',
-//        'link' => 'web/photo-critique.php'
-//    ),
 ];
 
 
