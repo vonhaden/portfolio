@@ -21,7 +21,8 @@
     background-color: $teal;
     border: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $teal-dark-1;
         background-color: $white;
     }
@@ -33,7 +34,8 @@
     background-color: $teal;
     border: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $white;
         background-color: $teal-dark-1;
     }
