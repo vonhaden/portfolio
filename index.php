@@ -49,37 +49,79 @@ include "includes/nav-transparent.php";
 
         <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
 
-            <a href="#" class="image-link">
+            <a href="web/kingdom-prep-lutheran-high-school.php" class="image-link">
                 <div class="link-box-outer uk-height-medium">
-                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/photo-critique-thumb.jpg" uk-img></div>
-                    <div class="link-text">Photo Critique</div>
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/kp.webp" uk-img></div>
+                    <div class="link-text">Kingdom Prep</div>
                 </div>
             </a>
 
-            <a href="#" class="image-link">
+            <a href="web/costog.php" class="image-link">
                 <div class="link-box-outer uk-height-medium">
-                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/datamed-thumb.jpg" uk-img></div>
-                    <div class="link-text">Data Med</div>
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/costog.webp" uk-img></div>
+                    <div class="link-text">Costog</div>
                 </div>
             </a>
 
-            <a href="#" class="image-link">
+            <a href="web/books-plugin.php" class="image-link">
                 <div class="link-box-outer uk-height-medium">
-                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/osbd-thumb.jpg" uk-img></div>
-                    <div class="link-text">Milwaukee OSBD</div>
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/books.webp" uk-img></div>
+                    <div class="link-text">Books Plugin</div>
                 </div>
             </a>
 
-            <a href="#" class="image-link uk-hidden@xs uk-visible@s uk-hidden@m">
+            <a href="web/midwest-connection.php" class="image-link uk-hidden@xs uk-visible@s uk-hidden@m">
                 <div class="link-box-outer uk-height-medium">
-                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest-connection-thumb.jpg" uk-img></div>
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/midwest.webp" uk-img></div>
                     <div class="link-text">Midwest Connection</div>
                 </div>
             </a>
 
         </div>
 
-        <a href="#" class="uk-margin-top uk-button uk-button-default uk-align-right@s button button-teal-on-white">See More</a>
+        <a href="web.php" class="uk-margin-top uk-button uk-button-default uk-align-right@s button button-teal-on-white">See More</a>
+
+    </div>
+</div>
+
+<div class="portfolio-showcase design-showcase uk-section">
+    <div class="uk-container">
+
+        <h2>Design</h2>
+
+        <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
+
+            <a href="design/rushing-past-willow.php" class="image-link">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/rpw.webp" uk-img></div>
+                    <div class="link-text">Rushing Past Willow</div>
+                </div>
+            </a>
+
+            <a href="design/designer-link.php" class="image-link">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/designer-link.webp" uk-img></div>
+                    <div class="link-text">Designer Link</div>
+                </div>
+            </a>
+
+            <a href="design/rock-bike-park.php" class="image-link">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/bike.webp" uk-img></div>
+                    <div class="link-text">Rock Bike Park</div>
+                </div>
+            </a>
+
+            <a href="design/aptura.php" class="image-link uk-hidden@xs uk-visible@s uk-hidden@m">
+                <div class="link-box-outer uk-height-medium">
+                    <div class="link-box-inner uk-background-cover" data-src="img/thumbnails/aptura.webp" uk-img></div>
+                    <div class="link-text">Aptura</div>
+                </div>
+            </a>
+
+        </div>
+
+        <a href="design.php" class="uk-margin-top uk-button uk-button-default uk-align-right@s button button-teal-on-white">See More</a>
 
     </div>
 </div>
@@ -147,7 +189,7 @@ include "includes/nav-transparent.php";
         <img src="img/paper-plane.svg" width="69" height="50"  class="uk-align-center" uk-svg>
         <h2 class="uk-text-center">Interested in Connecting?</h2>
         <div class="uk-flex uk-flex-center">
-            <a href="#" class="uk-button uk-button-default button button-teal">Send Email</a>
+            <a href="mailto:xandrewxvonxhadenx@gmail.com" onmouseover="this.href=this.href.replace(/x/g,'');" class="uk-button uk-button-default button button-teal">Send Email</a>
         </div>
     </div>
 </div>

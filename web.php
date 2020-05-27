@@ -8,7 +8,7 @@ $metaDescription = 'Andrew Von Haden\'s portfolio of web development projects.';
 $projects = [
     array(
         'name' => 'Midwest Connection',
-        'tags' => 'php mysql ui css',
+        'tags' => 'php db ui css',
         'src' => '../img/projects/midwest-connection/thumb/midwest-home-desktop.jpg',
         'link' => 'web/midwest-connection.php'
     ),
@@ -20,7 +20,7 @@ $projects = [
     ),
     array(
         'name' => 'Costog',
-        'tags' => 'vue boot sass js',
+        'tags' => 'vue boot sass js db',
         'src' => '../img/projects/costog/thumb/Costog-Home-Desktop-1280p.webp',
         'link' => 'web/costog.php'
     ),
@@ -117,8 +117,8 @@ include "includes/nav.php";
                 <li uk-filter-control="[data-tags*='ui']">
                     <a href="#">UI Design</a>
                 </li>
-                <li uk-filter-control="[data-tags*='mysql']">
-                    <a href="#">MySQL</a>
+                <li uk-filter-control="[data-tags*='db']">
+                    <a href="#">Database</a>
                 </li>
             </ul>
 
