@@ -10,7 +10,7 @@ $projectType = 'design';
 // Project Description
 $projectDescription = 'This brochure was created to advertise the new baseball league run by The Rock Sports Complex in Franklin, Wisconsin.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'The Rock Baseball League brochure designed by Andrew Von Haden.';
 
 
 // Tags

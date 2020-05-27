@@ -8,9 +8,9 @@ $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 $projectType = 'design';
 
 // Project Description
-$projectDescription = 'This trail map was created for The Rock in Franklin, Wisconsin. The map highlights both their down hill and cross country trails.';
+$projectDescription = 'This trail map was created for The Rock in Franklin, Wisconsin. The map was printed and placed at various points around the bike park. The inside of the map shows The Rock\'s downhill and cross country bike trails while the interior fold shows information about operating hours, ticket prices, and rentals.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'The Rock Bike Park trail map designed by Andrew Von Haden.';
 
 
 // Tags

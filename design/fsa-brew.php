@@ -10,7 +10,7 @@ $projectType = 'design';
 // Project Description
 $projectDescription = 'Every year, Northwestern Mutual gives out their Financial Security Award to Financial Representatives who achieve very highly in the area of financial security. To celebrate their achievements, we created this custom beer label which with the help of the MKE Brewing Company was printed and put on their bottles. The beer was served during a cocktail hour at Northwestern Mutual\'s annual meeting.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'The FSA Brew label, designed by Andrew Von Haden.';
 
 
 // Tags

@@ -94,8 +94,6 @@ include "../includes/nav.php";
     <section class="project-body uk-section">
         <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-<!--            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/costog/highlight-1.webp" alt="" uk-img>-->
-
             <div class="body-section uk-margin-medium-bottom">
                 <h2>Development</h2>
                 <p>Costog is a single page application that was originally built with the CDN version of Vue. It was recently rebuilt in the CLI version of Vue to make the project more modular and allow for easier continued development.</p>
@@ -116,13 +114,12 @@ include "../includes/nav.php";
                     </div>
                     <div class="uk-width-1-1 uk-width-1-2@m uk-width-1-3@l">
                         <img class="full-width-image" data-src="../img/projects/costog/highlight-1.jpg" alt="photo upload." uk-img>
-
                     </div>
                 </div>
             </div>
 
-            <a href="https://costog.co/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white uk-margin-small-right ">Visit Site</a>
-            <a href="https://github.com/vonhaden/Cosplay-Photo-Critique" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">View on GitHub</a>
+            <a href="https://costog.co/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white uk-margin-small-right uk-margin-bottom">Visit Site</a>
+            <a href="https://github.com/vonhaden/Cosplay-Photo-Critique" target=”_blank” class="uk-button uk-button-default button button-teal-on-white uk-margin-bottom">View on GitHub</a>
 
         </div>
     </section>

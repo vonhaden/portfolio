@@ -8,9 +8,9 @@ $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 $projectType = 'design';
 
 // Project Description
-$projectDescription = 'This video was created for visitors to Direct Supply\'s campus to get a short look at the history of the company.';
+$projectDescription = 'This video was created for visitors to Direct Supply\'s campus to get a short look at the history of the company. It covers the 35+ year history of the company and how it has evolved.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'A video of Direct Supply\'s history created by Andrew Von Haden';
 
 
 // Tags

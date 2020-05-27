@@ -25,10 +25,10 @@ $projects = [
         'link' => 'web/costog.php'
     ),
     array(
-        'name' => 'Brandon Sanderson',
+        'name' => 'Books Plugin',
         'tags' => 'wp php sass',
-        'src' => '../img/projects/brandon-sanderson/thumb/home.jpg',
-        'link' => 'web/brandon-sanderson.php'
+        'src' => '../img/projects/books/thumb/home.jpg',
+        'link' => 'web/books-plugin.php'
     ),
     array(
         'name' => 'DataMed',

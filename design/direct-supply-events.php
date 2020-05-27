@@ -8,9 +8,12 @@ $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 $projectType = 'design';
 
 // Project Description
-$projectDescription = 'Direct Supply hosts many large customer events ever year. I worked on the presentation side of these event with creating the PowerPoint template and working with the presenters to format their content. Here is a collection of slides from some of these events.';
+$projectDescription = 'Direct Supply hosts many large customer events ever year, all of which feature beautifully designed presentation. Every event has its own look and feel designed and a custom PowerPoint template is created off of it.
+Each event features tens of presenters and hundreds of slides, all of which are taken and designed to better convey the presenter\'s message while integrating in to the look of the event. Below is a collection of slides from different events
+from 2016 to 2018.';
+
 // set meta description
-$metaDescription = '';
+$metaDescription = 'A collection of slides designed by Andrew Von Haden from different collection of different Direct Supply events.';
 
 
 // Tags

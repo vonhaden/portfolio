@@ -8,9 +8,9 @@ $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 $projectType = 'design';
 
 // Project Description
-$projectDescription = 'This is the packaging design for Nick Zoulek\'s first studio album, Rushing Past Willow. The design features a painting created by Tim Zoulek as well as my photography.';
+$projectDescription = 'This is the packaging design for Nick Zoulek\'s first studio album, Rushing Past Willow. The design features paintings created by Tim Zoulek and photography by Vontography.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'The packaging design for Rushing Past Willow by Nick Zoulek, designed by Andrew Von Haden.';
 
 
 // Tags

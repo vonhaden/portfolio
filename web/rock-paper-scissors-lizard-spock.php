@@ -18,7 +18,10 @@ $projectImage = '../img/projects/rock-paper-scissors/feature.png';
 $projectImageAlt = 'Rock Paper Scissors Lizard Spock displayed on a laptop.';
 
 // Project Description
-$projectDescription = 'Rock Paper Scissors Lizard Spock is a slightly more complicated variation on the classic game of Rock Paper Scissors. In this app you can play out a simple 3 round game against the computer. The game was written in JavaScript using jQuery.';
+$projectDescription = 'Rock Paper Scissors Lizard Spock is an extension on the quintessential hand game "Rock Paper Scissors".
+This game adds two more \'weapons\' in order to greatly increase the number of possible outcomes.
+In this app you can play a 3 round game against the computer. The game was written in JavaScript using jQuery.';
+
 
 // Gallery
 // each array is an individual thumbnail item
@@ -89,7 +92,7 @@ include "../includes/nav.php";
             </div>
 
 
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <a href="https://rpsls.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Play it!</a>
 
         </div>
     </section>

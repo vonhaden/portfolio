@@ -1,6 +1,6 @@
 <?php
 // Project Title
-$projectTitle = 'Brandon Sanderson Site';
+$projectTitle = 'Books WordPress Plugin';
 // Page Title
 $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 
@@ -10,9 +10,9 @@ $projectType = 'web';
 
 
 // Project Description
-$projectDescription = 'Lorem Ipsum';
+$projectDescription = 'This site, featuring the work of author Brandon Sanderson, was built to showcase the Books WordPress plugin. The plugin was created so that authors could easily build a dynamic site to showcase their work. Simply add a book in the WordPress backend like you would a normal post and it will display fully formatted on the front end.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'This WordPress plugin was created so that authors could easily build a dynamic site to showcase their work. The Books plugin was created by Andrew Von Haden in PHP and can be easily implemented on any WordPress site.';
 
 
 // Tags
@@ -24,13 +24,13 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/brandon-sanderson/feature.webp';
+$projectImage = '../img/projects/books/feature.webp';
 $projectImageAlt = '';
 
 
 // Gallery
 // each array is an individual thumbnail item
-$filePath = '../img/projects/brandon-sanderson/';
+$filePath = '../img/projects/books/';
 $galleryPath = 'gallery/';
 $thumbnailPath = 'thumb/';
 $projectGallery = [
@@ -126,19 +126,34 @@ include "../includes/nav.php";
     <section class="project-body uk-section">
         <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/brandon-sanderson/highlight-1.webp" alt="Brandon Sanderson website home page." uk-img>
+            <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/books/highlight-1.webp" alt="Brandon Sanderson website home page." uk-img>
 
             <div class="body-section uk-margin-medium-bottom">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
+                <h2>Books</h2>
+                <div class="uk-grid">
+                    <div class="uk-width-1-1 uk-width-1-2@m uk-margin-bottom">
+                        <p>The books section of the Books WordPress plugin allows users to enter in individual books into WordPress on the backend. Along with entering a title and description of the book, every book can have a publisher, publish date, page count, and price. Books can also be assigned genres and series.</p>
+                        <h3>Book Settings</h3>
+                        <p>In the setting for the plugin any one of these custom fields can be disabled. The currency option for the price may also be changed in the setting. Additionally, if you would prefer to change the name of books to something else, this can be changed in the plugin settings.</p>
+                    </div>
+                    <div class="uk-width-1-1 uk-width-1-2@m">
+                        <img class="full-width-image uk-box-shadow-medium" data-src="../img/projects/books/highlight-2.png" alt="Add a book." uk-img>
+                    </div>
+                </div>
             </div>
 
             <div class="body-section uk-margin-medium-bottom" uk-scrollspy-class="uk-animation-slide-right">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
+                <h2>Reviews</h2>
+                <p>The Books plugin comes with a Reviews post type that is linked to books. This allows users to add reviews for specific books, which are then shown below the details on an individual book page. The average review score is calculated and shown before the list of individual reviews. Specific parts of the view can be turned off in the settings, such as the score or the reviewer location.</p>
+                <p>The reviews also have a shortcode that can be added anywhere on the site. This code pulls a random review from all reviews that have been added to the site.</p>
             </div>
 
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <div class="body-section uk-margin-medium-bottom">
+                <h2>Recent Books Widget</h2>
+                <p>The plugin come with a recent books widget which can be added to a sidebar or a footer on the site. The widget displays the most recent books that have been added to the site, the number of which can be configured in the widget options.</p>
+            </div>
+
+            <a href="https://books.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
 
         </div>
     </section>

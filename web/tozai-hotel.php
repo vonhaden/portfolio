@@ -8,10 +8,7 @@ $projectType = 'web';
 // Tags
 $projectTags = [
     'HTML',
-    'SCSS',
-    'Vue',
-    'JavaScript',
-    'Bootstrap'
+    'CSS'
 ];
 
 // Feature Image
@@ -19,7 +16,7 @@ $projectImage = '../img/projects/tozai-hotel/feature.png';
 $projectImageAlt = 'The Tozai Hotel website displayed on a laptop, tablet, and phone.';
 
 // Project Description
-$projectDescription = 'Lorem Ipsum';
+$projectDescription = 'Tozai Hotel’s website was built to be simple and attractive. The site is fully response with semantic HTML and hand coded media queries.  ';
 
 // Gallery
 // each array is an individual thumbnail item
@@ -88,7 +85,7 @@ $projectGallery = [
 $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 
 // set meta description
-$metaDescription = '';
+$metaDescription = $projectDescription;
 
 // includes
 include "../includes/head.php";
@@ -103,17 +100,7 @@ include "../includes/nav.php";
 
             <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/tozai-hotel/highlight-1.jpg" alt="Tozai Hotel homepage screenshot." uk-img>
 
-            <div class="body-section uk-margin-medium-bottom">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
-            </div>
-
-            <div class="body-section uk-margin-medium-bottom" uk-scrollspy-class="uk-animation-slide-right">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
-            </div>
-
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <a href="http://tozai.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
 
         </div>
     </section>

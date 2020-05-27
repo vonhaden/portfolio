@@ -10,7 +10,7 @@ $projectType = 'design';
 // Project Description
 $projectDescription = 'Based on the look and feel created for the Designer Link brochure, this PowerPoint deck clearly presents all of the facets of Direct Supply\'s Designer Link program.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'Designer Link is a presentation designed by Andrew Von Haden for Direct Supply Designer Link program.';
 
 
 // Tags

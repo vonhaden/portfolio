@@ -1,6 +1,6 @@
 <?php
 // Project Title
-$projectTitle = 'WCTC';
+$projectTitle = 'WCTC Course Search Redesign';
 // Page Title
 $pageTitle = 'Andrew Von Haden | ' . $projectTitle;
 
@@ -10,9 +10,9 @@ $projectType = 'web';
 
 
 // Project Description
-$projectDescription = 'Lorem Ipsum';
+$projectDescription = 'Waukesha County Technical College was looking to redesign their process for searching for classes. This project involved creating wireframes and mockups for a revamped search process. These screens needed to be clearer and easier to use than their current process and function well at every screen size. Multiple designs were created and AB tested before moving forward with a final design.';
 // set meta description
-$metaDescription = '';
+$metaDescription = 'Waukesha County Technical College was looking to redesign their process for searching for classes. This project involved creating wireframes and mockups for a revamped course search process so that it easier to understand and use.';
 
 
 // Tags
@@ -100,19 +100,9 @@ include "../includes/nav.php";
     <section class="project-body uk-section">
         <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/wctc/highlight-1.webp" alt="" uk-img>
+            <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/wctc/highlight-1.webp" alt="" uk-img>
 
-            <div class="body-section uk-margin-medium-bottom">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
-            </div>
-
-            <div class="body-section uk-margin-medium-bottom" uk-scrollspy-class="uk-animation-slide-right">
-                <h2>Title</h2>
-                <p>Lorem Ipsum.</p>
-            </div>
-
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <a href="../files/WCTC.xd" target=”_blank” class="uk-button uk-button-default button button-teal-on-white" download>View the Project in XD</a>
 
         </div>
     </section>

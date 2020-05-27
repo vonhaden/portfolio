@@ -140,7 +140,7 @@ include "../includes/nav.php";
             </div>
 
 
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <a href="http://www.midwest-connection.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
 
         </div>
     </section>

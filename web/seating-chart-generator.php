@@ -60,7 +60,7 @@ include "../includes/nav.php";
 
             <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/seating-chart-generator/highlight-1.jpg" alt="" uk-img>
 
-            <a href="#" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Visit Site</a>
+            <a href="https://seating-chart.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Try the App</a>
 
         </div>
     </section>
