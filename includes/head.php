@@ -5,10 +5,15 @@
     <title><?= isset($pageTitle) ? $pageTitle : 'Yale School of Art' ?></title>
 
     <!-- Meta -->
-    <meta name="description" content="<?= isset($metaDescription) ? $metaDescription : 'Andrew Von Haden\'s Web Potfolio' ?>">
+    <meta name="description" content="<?= isset($metaDescription) ? $metaDescription : 'Andrew Von Haden\'s Web Portfolio' ?>">
     <meta name="keywords" content="web development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fafafa">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Manifest -->
     <link rel="manifest" href="/site.webmanifest">
