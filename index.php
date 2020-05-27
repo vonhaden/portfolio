@@ -3,7 +3,7 @@
 $pageTitle = 'Andrew Von Haden';
 
 // set meta description
-$metaDescription = '';
+$metaDescription = 'Andrew Von Haden\'s web and graphic design portfolio.';
 
 // includes
 include "includes/head.php";
@@ -12,7 +12,7 @@ include "includes/nav-transparent.php";
 
 
 <!-- HERO -->
-<div class="hero uk-background-fixed uk-background-cover uk-background-center-center uk-light uk-flex"
+<section class="hero uk-background-fixed uk-background-cover uk-background-center-center uk-light uk-flex"
      uk-height-viewport="offset-top: true"
      style="background-image: url('img/cover-bg.jpg');"
 >
@@ -20,29 +20,30 @@ include "includes/nav-transparent.php";
         <img src="img/AVH-Logo.svg" height="200" width="175" alt="logo" class="uk-animation-scale-up" uk-svg>
         <h2 class="uk-animation-fade">I am a full stack web developer and designer from Southeast Wisconsin.</h2>
     </div>
-</div>
+</section>
 
 
 
 <!-- Who am I -->
-<div class="uk-section bg-grey-white">
+<section class="uk-section bg-grey-white">
     <div class="uk-container">
         <div class="uk-child-width-expand" uk-grid>
             <div class="uk-width-1-1 uk-width-2-3@s uk-width-2-3@m uk-width-4-5@l">
                 <h2>Who am I?</h2>
                 <p>Hi! My name is Andrew I am a full stack web developer and graphic designer located in Menomonee Falls, Wisconsin. I am a problem solver with the ability to transform vague ideas into client pleasing results. My strong grasp of both front-end and back end development combined with my deep background in many facets of graphic design allows me to tackle a huge range of different projects. I have a proven track record of delivering quality work while managing dozens of projects on tight deadlines. My knowledge of the entire Adobe Creative Cloud is vast and paired with my design skills to create unique branding, typography, and design layouts. I am constantly expanding knowledge of web development including HTML5, CSS and SCSS, jQuery,Vue JavaScript framework, PHP, SQL and NoSQL databases, and WordPress. Pursing perfection is what drives me in my work. </p>
             </div>
+<!--            <div class="uk-cover-container">-->
             <div>
-                <img src="img/andrew.webp" uk-img>
+                <img src="img/andrew.webp" alt="Photo of Andrew Von Haden." uk-img>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 
 
 <!-- Web -->
-<div class="portfolio-showcase web-showcase uk-section">
+<section class="portfolio-showcase web-showcase uk-section">
     <div class="uk-container">
 
         <h2>Web</h2>
@@ -82,9 +83,9 @@ include "includes/nav-transparent.php";
         <a href="web.php" class="uk-margin-top uk-button uk-button-default uk-align-right@s button button-teal-on-white">See More</a>
 
     </div>
-</div>
+</section>
 
-<div class="portfolio-showcase design-showcase uk-section">
+<section class="portfolio-showcase design-showcase uk-section">
     <div class="uk-container">
 
         <h2>Design</h2>
@@ -124,12 +125,12 @@ include "includes/nav-transparent.php";
         <a href="design.php" class="uk-margin-top uk-button uk-button-default uk-align-right@s button button-teal-on-white">See More</a>
 
     </div>
-</div>
+</section>
 
 
 
 <!-- Testimonials -->
-<div class="testimonials uk-section bg-grey-white">
+<section class="testimonials uk-section bg-grey-white">
     <div class="uk-container">
         <h2 class="uk-text-center">Testimonials</h2>
 
@@ -179,12 +180,12 @@ include "includes/nav-transparent.php";
 
     </div>
 
-</div>
+</section>
 
 
 
 <!-- Connect -->
-<div class="connect uk-section">
+<section class="connect uk-section">
     <div class="uk-container">
         <img src="img/paper-plane.svg" width="69" height="50"  class="uk-align-center" uk-svg>
         <h2 class="uk-text-center">Interested in Connecting?</h2>
@@ -192,7 +193,7 @@ include "includes/nav-transparent.php";
             <a href="mailto:xandrewxvonxhadenx@gmail.com" onmouseover="this.href=this.href.replace(/x/g,'');" class="uk-button uk-button-default button button-teal">Send Email</a>
         </div>
     </div>
-</div>
+</section>
 
 
 <?php

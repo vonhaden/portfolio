@@ -1,0 +1,55 @@
+h1, h2, h3, h4 {
+    color: $teal-dark-1;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+
+.programs {
+    .program-list {
+        margin-left: -30px;
+    }
+
+    .program {
+        width: calc(100%/3);
+        height: 40px;
+
+        @include mappy-bp(sm) {
+            width: calc(100%/4);
+        }
+        @include mappy-bp(md) {
+            width: calc(100%/6);
+        }
+        @include mappy-bp(lg) {
+            width: calc(100%/7);
+        }
+        @include mappy-bp(xl) {
+            width: calc(100%/8);
+        }
+
+        //svg {
+        //    padding-left: 30px;
+        //    height: 100%;
+        //    object-fit: cover;
+        //    margin-left: auto;
+        //    margin-right: auto;
+        //}
+
+        img {
+            padding-left: 30px;
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.resume {
+    h2 {
+        color: $white;
+    }
+}

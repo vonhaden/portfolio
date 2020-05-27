@@ -64,6 +64,16 @@
   background-color: #11666b;
 }
 
+.button-white {
+  color: #049898;
+  background-color: #fff;
+  border: none;
+}
+.button-white:hover, .button-white:focus {
+  color: #fff;
+  background-color: #11666b;
+}
+
 .image-link {
   text-decoration: none;
 }
@@ -143,6 +153,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-grey-light {
   background-color: #d9d9d9;
+}
+
+.bg-grey-dark {
+  background-color: #4c4c4c;
+}
+
+.bg-teal {
+  background-color: #049898;
+}
+
+.bg-teal-dark-1 {
+  background-color: #11666b;
+}
+
+.bg-teal-dark-2 {
+  background-color: #083a3f;
 }
 
 /*--------------------------------------------------------------
@@ -594,6 +620,57 @@ h1, h2, h3, h4, h5, h6 {
   .connect svg {
     height: 35px;
   }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+h1, h2, h3, h4 {
+  color: #11666b;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.programs .program-list {
+  margin-left: -30px;
+}
+.programs .program {
+  width: calc(100%/3);
+  height: 40px;
+}
+@media all and (min-width: 30em) {
+  .programs .program {
+    width: calc(100%/4);
+  }
+}
+@media all and (min-width: 48em) {
+  .programs .program {
+    width: calc(100%/6);
+  }
+}
+@media all and (min-width: 60em) {
+  .programs .program {
+    width: calc(100%/7);
+  }
+}
+@media all and (min-width: 75em) {
+  .programs .program {
+    width: calc(100%/8);
+  }
+}
+.programs .program img {
+  padding-left: 30px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume h2 {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
