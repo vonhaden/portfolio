@@ -127,13 +127,12 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

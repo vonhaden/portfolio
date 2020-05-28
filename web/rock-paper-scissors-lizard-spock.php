@@ -67,37 +67,38 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
+                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/rock-paper-scissors/highlight-1.jpg" alt="" uk-img>
 
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/rock-paper-scissors/highlight-1.jpg" alt="" uk-img>
+                <div class="body-section uk-margin-medium-bottom">
+                    <h2>Rules</h2>
+                    <ul>
+                        <li>Scissors cuts Paper</li>
+                        <li>Paper covers Rock</li>
+                        <li>Rock crushes Lizard</li>
+                        <li>Lizard poisons Spock</li>
+                        <li>Spock smashes Scissors</li>
+                        <li>Scissors decapitates Lizard</li>
+                        <li>Lizard eats Paper</li>
+                        <li>Paper disproves Spock</li>
+                        <li>Spock vaporizes Rock</li>
+                        <li>Rock crushes Scissors</li>
+                    </ul>
+                </div>
 
-            <div class="body-section uk-margin-medium-bottom">
-                <h2>Rules</h2>
-                <ul>
-                    <li>Scissors cuts Paper</li>
-                    <li>Paper covers Rock</li>
-                    <li>Rock crushes Lizard</li>
-                    <li>Lizard poisons Spock</li>
-                    <li>Spock smashes Scissors</li>
-                    <li>Scissors decapitates Lizard</li>
-                    <li>Lizard eats Paper</li>
-                    <li>Paper disproves Spock</li>
-                    <li>Spock vaporizes Rock</li>
-                    <li>Rock crushes Scissors</li>
-                </ul>
+
+                <a href="https://rpsls.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Play it!</a>
+
             </div>
-
-
-            <a href="https://rpsls.andrewvonhaden.com/" target=”_blank” class="uk-button uk-button-default button button-teal-on-white">Play it!</a>
-
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

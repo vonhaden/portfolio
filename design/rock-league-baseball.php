@@ -74,19 +74,18 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container">
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/rock-league/highlight-1.jpg" alt="The exterior of the Rock League Baseball brochure." uk-img>
-            <img class="full-width-image" data-src="../img/projects/rock-league/highlight-2.jpg" alt="The interior of the Rock League Baseball brochure." uk-img>
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container">
+                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/rock-league/highlight-1.jpg" alt="The exterior of the Rock League Baseball brochure." uk-img>
+                <img class="full-width-image" data-src="../img/projects/rock-league/highlight-2.jpg" alt="The interior of the Rock League Baseball brochure." uk-img>
+            </div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

@@ -30,17 +30,17 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container">
+                <img class="full-width-image" data-src="../img/projects/fsa-brew/label.jpg" alt="FSA Brew label." uk-img>
+            </div>
+        </section>
+    </div>
+</main>
 
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container">
-            <img class="full-width-image" data-src="../img/projects/fsa-brew/label.jpg" alt="FSA Brew label." uk-img>
-        </div>
-    </section>
-</div>
 
 <?php
 include "../includes/footer.php";

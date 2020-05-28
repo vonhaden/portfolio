@@ -88,18 +88,17 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container">
-            <img class="full-width-image" data-src="../img/projects/rushing-past-willow/highlight-1.jpg" alt="The cover of Rushing Past Willow." uk-img>
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container">
+                <img class="full-width-image" data-src="../img/projects/rushing-past-willow/highlight-1.jpg" alt="The cover of Rushing Past Willow." uk-img>
+            </div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

@@ -171,6 +171,28 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #083a3f;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav {
+  flex-shrink: 0;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+.uk-sticky-placeholder {
+  flex-shrink: 0;
+}
+
 /*--------------------------------------------------------------
 # Nav
 --------------------------------------------------------------*/

@@ -176,17 +176,18 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container">
-            <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/designer-link/highlight-1.JPG" alt="The cover slide of the Designer Link PowerPoint." uk-img>
-            <img class="full-width-image" data-src="../img/projects/designer-link/highlight-2.JPG" alt="The design slide from the Designer Link PowerPoint." uk-img>
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container">
+                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/designer-link/highlight-1.JPG" alt="The cover slide of the Designer Link PowerPoint." uk-img>
+                <img class="full-width-image" data-src="../img/projects/designer-link/highlight-2.JPG" alt="The design slide from the Designer Link PowerPoint." uk-img>
+            </div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

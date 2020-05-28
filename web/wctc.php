@@ -94,20 +94,21 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
+                <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/wctc/highlight-1.webp" alt="" uk-img>
 
-            <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/wctc/highlight-1.webp" alt="" uk-img>
+                <a href="../files/WCTC.xd" target=”_blank” class="uk-button uk-button-default button button-teal-on-white" download>View the Project in XD</a>
 
-            <a href="../files/WCTC.xd" target=”_blank” class="uk-button uk-button-default button button-teal-on-white" download>View the Project in XD</a>
-
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+            </div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

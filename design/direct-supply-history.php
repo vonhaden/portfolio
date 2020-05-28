@@ -29,17 +29,16 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container">
-            <iframe src="https://www.youtube-nocookie.com/embed/4iURQ5pvgF8" width="1200" height="675" frameborder="0" allowfullscreen uk-responsive uk-video></iframe>
-        </div>
-    </section>
-</div>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/4iURQ5pvgF8" width="1200" height="675" frameborder="0" allowfullscreen uk-responsive uk-video></iframe>
+            </div>
+        </section>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

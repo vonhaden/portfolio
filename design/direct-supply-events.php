@@ -329,32 +329,31 @@ include "../includes/head.php";
 include "../includes/nav.php";
 ?>
 
-
-
-
-<div class="project">
-    <?php include '../includes/project-header.php'; ?>
-    <section class="project-body uk-section">
-        <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
-            <div class="body-section">
-                <h2>List of Direct Supply Events</h2>
-                <ul>
-                    <li>Aptura Developers Collective 2017</li>
-                    <li>Clinical Leadership Conference 2016</li>
-                    <li>Dining Executive Council 2017</li>
-                    <li>DSSI Forum 2016</li>
-                    <li>DSSI Forum 2017</li>
-                    <li>DSSI Forum 2018</li>
-                    <li>Executive Operators Forum 2016</li>
-                    <li>Executive Operators Forum 2017</li>
-                    <li>TELS Summit 2016</li>
-                    <li>TELS Summit 2017</li>
-                </ul>
+<main>
+    <div class="project">
+        <?php include '../includes/project-header.php'; ?>
+        <section class="project-body uk-section">
+            <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
+                <div class="body-section">
+                    <h2>List of Direct Supply Events</h2>
+                    <ul>
+                        <li>Aptura Developers Collective 2017</li>
+                        <li>Clinical Leadership Conference 2016</li>
+                        <li>Dining Executive Council 2017</li>
+                        <li>DSSI Forum 2016</li>
+                        <li>DSSI Forum 2017</li>
+                        <li>DSSI Forum 2018</li>
+                        <li>Executive Operators Forum 2016</li>
+                        <li>Executive Operators Forum 2017</li>
+                        <li>TELS Summit 2016</li>
+                        <li>TELS Summit 2017</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <?php include '../includes/project-gallery.php'; ?>
-</div>
+        </section>
+        <?php include '../includes/project-gallery.php'; ?>
+    </div>
+</main>
 
 <?php
 include "../includes/footer.php";

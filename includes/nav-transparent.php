@@ -1,5 +1,5 @@
 <!---------------------- NAVBAR ---------------------->
-<div class="uk-position-top">
+<nav class="uk-position-top">
     <div class="nav uk-navbar-container uk-sticky uk-navbar-transparent"
          uk-sticky="sel-target: .uk-navbar-container;
                 cls-active: uk-navbar-sticky uk-navbar-grey;
@@ -10,4 +10,4 @@
         </div>
     </div>
 
-</div>
+</nav>
