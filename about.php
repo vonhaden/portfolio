@@ -149,10 +149,20 @@ include "includes/nav.php";
     //            }
 
                 foreach ($logos as $logo) {
+                    // Wrapper
                     echo '<div class="program uk-margin-large-bottom uk-cover-container">';
-                    echo '<img src="' . $logo['src'] . '"';
-                    echo 'alt="' . $logo['alt'] . '"';
+
+                    // Image
+                    echo '<img ';
+                        // Tool tip
+                        echo 'uk-tooltip="title: ' . $logo['alt'] . '; cls: uk-active program-tool-tip;"';
+                        // Image Source
+                        echo 'src="' . $logo['src'] . '"';
+                        // Alt Text
+                        echo 'alt="' . $logo['alt'] . '"';
                     echo 'uk-img>';
+
+                    // Close wrapper
                     echo '</div>';
                 }
             ?>
