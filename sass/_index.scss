@@ -19,7 +19,9 @@
         }
     }
 
-    h2 {
+    h1 {
+        max-width: 800px;
+
         @include mappy-bp(xxs xs){
             font-size: 20px;
         }
@@ -27,7 +29,13 @@
             font-size: 24px;
         }
         @include mappy-bp(sm md){
-            font-size: 26px;
+            font-size: 28px;
+        }
+        @include mappy-bp(md lg){
+            font-size: 32px;
+        }
+        @include mappy-bp(lg){
+            font-size: 34px;
         }
     }
 

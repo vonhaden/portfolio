@@ -18,7 +18,7 @@ include "includes/nav-transparent.php";
     >
         <div class="uk-container uk-text-center uk-margin-auto uk-margin-auto-vertical">
             <img src="img/AVH-Logo.svg" height="200" width="175" alt="logo" class="uk-animation-scale-up" uk-svg>
-            <h2 class="uk-animation-fade">I am a full stack web developer and designer from Southeast Wisconsin.</h2>
+            <h1 class="uk-animation-fade">I am a full stack web developer and designer from Southeast Wisconsin.</h1>
         </div>
     </section>
 

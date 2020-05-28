@@ -503,19 +503,32 @@ footer {
     height: 150px;
   }
 }
+.hero h1 {
+  max-width: 800px;
+}
 @media all and (min-width: 18.75em) and (max-width: 23.0625em) {
-  .hero h2 {
+  .hero h1 {
     font-size: 20px;
   }
 }
 @media all and (min-width: 23.125em) and (max-width: 29.9375em) {
-  .hero h2 {
+  .hero h1 {
     font-size: 24px;
   }
 }
 @media all and (min-width: 30em) and (max-width: 47.9375em) {
-  .hero h2 {
-    font-size: 26px;
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+@media all and (min-width: 48em) and (max-width: 59.9375em) {
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+@media all and (min-width: 60em) {
+  .hero h1 {
+    font-size: 34px;
   }
 }
 
