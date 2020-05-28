@@ -18,13 +18,13 @@
     <!-- Manifest -->
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- Analytics -->
+    <?php include "analytics.php" ?>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.2/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen">
-
-    <!-- Favicon -->
-
 </head>
 
 <body>
