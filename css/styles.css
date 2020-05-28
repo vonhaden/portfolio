@@ -293,7 +293,7 @@ footer {
     min-height: 0;
   }
 }
-@media all and (min-width: 75em) {
+@media all and (min-width: 60em) {
   .nav .uk-navbar .nav-links a {
     font-size: 18px;
   }
