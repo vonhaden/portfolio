@@ -6,6 +6,19 @@ h2 {
     font-weight: 400;
 }
 
+.about {
+    .uk-cover-container {
+        min-height: 350px;
+    }
+
+    .about-text {
+        @include mappy-bp(lg){
+            padding-left: 0;
+            max-width: 600px;
+        }
+    }
+}
+
 
 .programs {
     .program-list {

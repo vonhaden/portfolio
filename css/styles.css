@@ -668,6 +668,16 @@ h2 {
   font-weight: 400;
 }
 
+.about .uk-cover-container {
+  min-height: 350px;
+}
+@media all and (min-width: 60em) {
+  .about .about-text {
+    padding-left: 0;
+    max-width: 600px;
+  }
+}
+
 .programs .program-list {
   margin-left: -30px;
 }
