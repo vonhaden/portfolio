@@ -14,7 +14,7 @@ include "includes/nav-transparent.php";
     <!-- HERO -->
     <section class="hero uk-background-fixed uk-background-cover uk-background-center-center uk-light uk-flex"
          uk-height-viewport="offset-top: true"
-         style="background-image: url('img/cover-bg.jpg');"
+         style="background-image: url('img/cover/cover-1920.webp');"
     >
         <div class="uk-container uk-text-center uk-margin-auto uk-margin-auto-vertical">
             <img src="img/AVH-Logo.svg" height="200" width="175" alt="logo" class="uk-animation-scale-up" uk-svg>
@@ -141,7 +141,16 @@ include "includes/nav-transparent.php";
 
                         <li class="testimonial-slide uk-width-5-6">
                             <div class="testimonial-slide-content">
-                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/adam.jpg" width="100" height="100" alt="" uk-img>
+                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/kyler.webp" width="100" height="100" alt="" uk-img>
+                                <h3 class="uk-text-center">Kyler Berg</h3>
+                                <h4 class="uk-text-center">Science Teacher & Technology Director, Kingdom Prep</h4>
+                                <p class="uk-text-center">"I had the privilege of working with Andrew on the redesign of my school’s website. Amidst the distractions of COVID-19, his team communicated excellently and meet all of our deadlines. Andrew managed the development of the site, including integrating plugins and adding custom functionality. The production site was perfect for allowing us to see new features and provide feedback. His work on the site’s functionality was amazing; his team listened and executed on everything we needed."</p>
+                            </div>
+                        </li>
+
+                        <li class="testimonial-slide uk-width-5-6">
+                            <div class="testimonial-slide-content">
+                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/adam.webp" width="100" height="100" alt="" uk-img>
                                 <h3 class="uk-text-center">Adam Derus</h3>
                                 <h4 class="uk-text-center">Senior Strategic Marketer, Direct Supply</h4>
                                 <p class="uk-text-center">"I worked with Andrew quite a bit in my role as strategic and content direction, while Andrew's role was to make it come to life. He was always great with creative ideas and there was no project too large for his creative eye. It was also great being able to have him consult on projects I was doing."</p>
@@ -150,7 +159,7 @@ include "includes/nav-transparent.php";
 
                         <li class="testimonial-slide uk-width-5-6">
                             <div class="testimonial-slide-content">
-                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/erica.jpg" width="100" height="100" alt="" uk-img>
+                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/erica.webp" width="100" height="100" alt="" uk-img>
                                 <h3 class="uk-text-center">Erica Breitrick</h3>
                                 <h4 class="uk-text-center">Senior Event & Video Production Associate, Direct Supply</h4>
                                 <p class="uk-text-center">"Andrew's presentations always have a great impact through creative design and eye-catching animations. He has a knack for taking stale data and reports, and turning them into visually-pleasing graphics that really tell the story behind the details."</p>
@@ -159,9 +168,9 @@ include "includes/nav-transparent.php";
 
                         <li class="testimonial-slide uk-width-5-6">
                             <div class="testimonial-slide-content">
-                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/rose.jpg" width="100" height="100" alt="" uk-img>
+                                <img class="uk-align-center uk-border-circle" data-src="img/testimonials/rose.webp" width="100" height="100" alt="" uk-img>
                                 <h3 class="uk-text-center">Rose Koenings</h3>
-                                <h4 class="uk-text-center">Document and Data Management Support, Alcami Corporation</h4>
+                                <h4 class="uk-text-center">Document & Data Management Support, Alcami Corporation</h4>
                                 <p class="uk-text-center">"Andrew has a warm professionalism that puts you at ease. I am never fully comfortable having my picture taken, but he made the experience fun and helped direct me into natural, flattering poses. I have always admired Andrew's work and was thrilled to have an opportunity to work with him. He truly loves what he does and it shows in his work. I couldn't be happier with my experience."</p>
                             </div>
                         </li>
