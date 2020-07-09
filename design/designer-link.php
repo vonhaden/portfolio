@@ -20,7 +20,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/designer-link/feature.webp';
+$projectImage = '../img/projects/designer-link/feature.png';
 $projectImageAlt = 'A collection of slides from the Designer Link presentation.';
 
 
@@ -181,8 +181,8 @@ include "../includes/nav.php";
         <?php include '../includes/project-header.php'; ?>
         <section class="project-body uk-section">
             <div class="uk-container">
-                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/designer-link/highlight-1.JPG" alt="The cover slide of the Designer Link PowerPoint." uk-img>
-                <img class="full-width-image" data-src="../img/projects/designer-link/highlight-2.JPG" alt="The design slide from the Designer Link PowerPoint." uk-img>
+                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/designer-link/highlight-1.jpg" alt="The cover slide of the Designer Link PowerPoint." uk-img>
+                <img class="full-width-image" data-src="../img/projects/designer-link/highlight-2.jpg" alt="The design slide from the Designer Link PowerPoint." uk-img>
             </div>
         </section>
         <?php include '../includes/project-gallery.php'; ?>

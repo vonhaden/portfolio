@@ -5,53 +5,56 @@ $pageTitle = 'Andrew Von Haden | Design Portfolio';
 // set meta description
 $metaDescription = 'Andrew Von Haden\'s portfolio of design projects.';
 
+// Thumbnail filepath
+$thumbnailPath = '../img/thumbnails/';
+
 $projects = [
     array(
         'name' => 'Rushing Past Willow',
         'tags' => 'print package',
-        'src' => '../img/projects/rushing-past-willow/thumb/cover.jpg',
+        'src' => $thumbnailPath . 'rpw.jpg',
         'link' => 'design/rushing-past-willow.php'
     ),
     array(
         'name' => 'Rock Bike Park',
         'tags' => 'print',
-        'src' => '../img/projects/rock-bike/thumb/cover-picture.jpg',
+        'src' => $thumbnailPath . 'bike.jpg',
         'link' => 'design/rock-bike-park.php'
     ),
     array(
         'name' => 'Designer Link',
         'tags' => 'presentation',
-        'src' => '../img/projects/designer-link/thumb/1.jpg',
+        'src' => $thumbnailPath . 'designer-link.jpg',
         'link' => 'design/designer-link.php'
     ),
     array(
         'name' => 'Aptura',
         'tags' => 'presentation',
-        'src' => '../img/projects/aptura/thumb/1-Cover.jpg',
+        'src' => $thumbnailPath . 'aptura.jpg',
         'link' => 'design/aptura.php'
     ),
     array(
         'name' => 'Direct Supply Events',
         'tags' => 'presentation',
-        'src' => '../img/projects/direct-supply-events/thumb/dssi-forum-2016-1.JPG',
+        'src' => $thumbnailPath . 'ds-events.jpg',
         'link' => 'design/direct-supply-events.php'
     ),
     array(
         'name' => 'Direct Supply History',
         'tags' => 'video',
-        'src' => '../img/projects/direct-supply-history/thumb/screen-cap.jpg',
+        'src' => $thumbnailPath . 'ds-history.jpg',
         'link' => 'design/direct-supply-history.php'
     ),
     array(
         'name' => 'Rock League Baseball',
         'tags' => 'print',
-        'src' => '../img/projects/rock-league/thumb/1.jpg',
+        'src' => $thumbnailPath . 'league.jpg',
         'link' => 'design/rock-league-baseball.php'
     ),
     array(
         'name' => 'FSA Brew',
         'tags' => 'print package',
-        'src' => '../img/projects/fsa-brew/thumb/label.jpg',
+        'src' => $thumbnailPath . 'fsa.jpg',
         'link' => 'design/fsa-brew.php'
     ),
 ];

@@ -15,7 +15,7 @@ include "includes/nav.php";
 <main>
     <section class="about uk-flex uk-flex-wrap">
             <div class="uk-width-1-1 uk-width-1-2@m uk-cover-container">
-                <img src="img/portrait-teal.webp" alt="Andrew with Camera" uk-cover>
+                <img src="img/portrait-teal.jpg" alt="Andrew with Camera" uk-cover>
             </div>
             <div class="uk-width-1-1 uk-width-1-2@m uk-margin-large-top uk-margin-large-bottom about-text">
                 <div class="uk-container">

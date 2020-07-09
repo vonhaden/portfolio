@@ -22,7 +22,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/wctc/feature.webp';
+$projectImage = '../img/projects/wctc/feature.png';
 $projectImageAlt = 'The redesigned course search page on the WCTC web site.';
 
 
@@ -100,7 +100,7 @@ include "../includes/nav.php";
         <section class="project-body uk-section">
             <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-                <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/wctc/highlight-1.webp" alt="" uk-img>
+                <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/wctc/highlight-1.jpg" alt="" uk-img>
 
                 <a href="../files/WCTC.xd" target=”_blank” class="uk-button uk-button-default button button-teal-on-white" download>View the Project in XD</a>
 

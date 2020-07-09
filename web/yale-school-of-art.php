@@ -26,7 +26,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/yale/feature.webp';
+$projectImage = '../img/projects/yale/feature.png';
 $projectImageAlt = 'The Yale School of Art website displayed on a laptop.';
 
 
@@ -92,7 +92,7 @@ include "../includes/nav.php";
         <section class="project-body uk-section">
             <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/project/yale/highlight-1.webp" alt="" uk-img>
+                <img class="full-width-image uk-margin-large-bottom" data-src="../img/projects/project/yale/highlight-1.jpg" alt="" uk-img>
 
                 <div class="body-section uk-margin-medium-bottom">
                     <h2>Tripwire Creative</h2>
