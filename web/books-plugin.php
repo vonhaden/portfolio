@@ -24,7 +24,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/books/feature.webp';
+$projectImage = '../img/projects/books/feature.png';
 $projectImageAlt = '';
 
 
@@ -68,49 +68,49 @@ $projectGallery = [
         'href' => $filePath . $galleryPath . 'backend-books-add.png',
         'caption' => 'WordPress Backend - Add Book',
         'alt' => 'Adding a book in the Books Plugin in the WordPress backend.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-add.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-add.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-books-genres.png',
         'caption' => 'WordPress Backend - Books Plugin - Genres',
         'alt' => 'The genre list of the Books Plugin in the WordPress backend.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-genres.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-genres.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-books-series.png',
         'caption' => 'WordPress Backend - Books Plugin - Series',
         'alt' => 'The series list of the Books Plugin in the WordPress backend.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-series.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-series.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-books-settings.png',
         'caption' => 'WordPress Backend - Books Plugin - Settings',
         'alt' => 'The settings of the Book Plugin in the WordPress backend.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-settings.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-books-settings.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-reviews-list.png',
         'caption' => 'WordPress Backend - Books Plugin - Reviews',
         'alt' => 'The reviews section of the Books WordPress Plugin.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-list.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-list.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-reviews-add.png',
         'caption' => 'WordPress Backend - Books Plugin - Add Review',
         'alt' => 'Adding a review in the reviews section of the Books WordPress Plugin.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-add.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-add.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-reviews-settings.png',
         'caption' => 'WordPress Backend - Books Plugin - Reviews Settings',
         'alt' => 'The settings of the reviews section of the Books WordPress Plugin.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-settings.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-reviews-settings.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'backend-widgets.png',
         'caption' => 'WordPress Backend - Books Plugin - Recent Books Widget',
         'alt' => 'The most recent books widget of the Books WordPress Plugin.',
-        'thumbnail' => $filePath . $thumbnailPath . 'backend-widgets.png'
+        'thumbnail' => $filePath . $thumbnailPath . 'backend-widgets.jpg'
     )
 ];
 
@@ -126,7 +126,7 @@ include "../includes/nav.php";
         <section class="project-body uk-section">
             <div class="uk-container" uk-scrollspy="target: > div; cls: uk-animation-slide-left; offset-top: -150">
 
-                <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/books/highlight-1.webp" alt="Brandon Sanderson website home page." uk-img>
+                <img class="full-width-image uk-margin-large-bottom uk-box-shadow-medium" data-src="../img/projects/books/highlight-1.jpg" alt="Brandon Sanderson website home page." uk-img>
 
                 <div class="body-section uk-margin-medium-bottom">
                     <h2>Books</h2>
@@ -137,7 +137,7 @@ include "../includes/nav.php";
                             <p>In the setting for the plugin any one of these custom fields can be disabled. The currency option for the price may also be changed in the setting. Additionally, if you would prefer to change the name of books to something else, this can be changed in the plugin settings.</p>
                         </div>
                         <div class="uk-width-1-1 uk-width-1-2@m">
-                            <img class="full-width-image uk-box-shadow-medium" data-src="../img/projects/books/highlight-2.png" alt="Add a book." uk-img>
+                            <img class="full-width-image uk-box-shadow-medium" data-src="../img/projects/books/highlight-2.jpg" alt="Add a book." uk-img>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/direct-supply-events/feature.webp';
+$projectImage = '../img/projects/direct-supply-events/feature.png';
 $projectImageAlt = 'Cover slides of DSSI Forum 2016, 2017, and 2018.';
 
 
@@ -37,61 +37,61 @@ $projectGallery = [
         'href' => $filePath . $galleryPath . 'dssi-forum-2016-1.JPG',
         'caption' => 'DSSI Forum 2016',
         'alt' => 'DSSI Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2016-2.JPG',
         'caption' => 'DSSI Forum 2016',
         'alt' => 'DSSI Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2016-3.JPG',
         'caption' => 'DSSI Forum 2016',
         'alt' => 'DSSI Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2016-4.JPG',
         'caption' => 'DSSI Forum 2016',
         'alt' => 'DSSI Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2016-5.JPG',
         'caption' => 'DSSI Forum 2016',
         'alt' => 'DSSI Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2016-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2017-1.JPG',
         'caption' => 'DSSI Forum 2017',
         'alt' => 'DSSI Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2017-2.JPG',
         'caption' => 'DSSI Forum 2017',
         'alt' => 'DSSI Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2017-3.JPG',
         'caption' => 'DSSI Forum 2017',
         'alt' => 'DSSI Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2017-4.JPG',
         'caption' => 'DSSI Forum 2017',
         'alt' => 'DSSI Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2017-5.JPG',
         'caption' => 'DSSI Forum 2017',
         'alt' => 'DSSI Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dssi-forum-2017-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dssi-forum-2018-1.jpg',
@@ -115,211 +115,211 @@ $projectGallery = [
         'href' => $filePath . $galleryPath . 'aptura-2017-1.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'aptura-2017-2.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'aptura-2017-3.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'aptura-2017-4.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'aptura-2017-5.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'aptura-2017-6.JPG',
         'caption' => 'Aptura Developers Collective 2017',
         'alt' => 'Aptura Developers Collective 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-6.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'aptura-2017-6.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'clc-2016-.JPG',
         'caption' => 'Clinical Leadership Conference 2016',
         'alt' => 'Clinical Leadership Conference 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'clc-2016-.JPG',
         'caption' => 'Clinical Leadership Conference 2016',
         'alt' => 'Clinical Leadership Conference 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'clc-2016-.JPG',
         'caption' => 'Clinical Leadership Conference 2016',
         'alt' => 'Clinical Leadership Conference 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'clc-2016-.JPG',
         'caption' => 'Clinical Leadership Conference 2016',
         'alt' => 'Clinical Leadership Conference 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'clc-2016-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dec-2017-.JPG',
         'caption' => 'Dining Executive Council 2017',
         'alt' => 'Dining Executive Council 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dec-2017-.JPG',
         'caption' => 'Dining Executive Council 2017',
         'alt' => 'Dining Executive Council 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dec-2017-.JPG',
         'caption' => 'Dining Executive Council 2017',
         'alt' => 'Dining Executive Council 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'dec-2017-.JPG',
         'caption' => 'Dining Executive Council 2017',
         'alt' => 'Dining Executive Council 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'dec-2017-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2016-1.JPG',
         'caption' => 'Executive Operators Forum 2016',
         'alt' => 'Executive Operators Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2016-2.JPG',
         'caption' => 'Executive Operators Forum 2016',
         'alt' => 'Executive Operators Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2016-3.JPG',
         'caption' => 'Executive Operators Forum 2016',
         'alt' => 'Executive Operators Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2016-4.JPG',
         'caption' => 'Executive Operators Forum 2016',
         'alt' => 'Executive Operators Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2016-5.JPG',
         'caption' => 'Executive Operators Forum 2016',
         'alt' => 'Executive Operators Forum 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2016-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2017-1.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2017-2.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2017-3.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2017-4.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'eof-2017-5.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'eof-2017-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2016-1.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2016-2.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2016-3.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2016-4.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2016-5.JPG',
         'caption' => 'Executive Operators Forum 2017',
         'alt' => 'Executive Operators Forum 2017 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2016-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-1.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-1.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-1.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-2.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-2.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-2.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-3.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-3.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-3.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-4.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-4.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-4.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-5.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-5.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-5.jpg'
     ),
     array(
         'href' => $filePath . $galleryPath . 'tels-summit-2017-6.JPG',
         'caption' => 'TELS Summit 2016',
         'alt' => 'TELS Summit 2016 slide.',
-        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-6.JPG'
+        'thumbnail' => $filePath . $thumbnailPath . 'tels-summit-2017-6.jpg'
     ),
 ];
 

@@ -6,6 +6,8 @@
 //----- Hero -------/
 .hero {
 
+    background-color: $teal;
+
     svg {
 
         @include mappy-bp(xxs xs){

@@ -5,71 +5,74 @@ $pageTitle = 'Andrew Von Haden | Web Portfolio';
 // set meta description
 $metaDescription = 'Andrew Von Haden\'s portfolio of web development projects.';
 
+// Thumbnail filepath
+$thumbnailPath = '../img/thumbnails/';
+
 $projects = [
     array(
         'name' => 'Midwest Connection',
         'tags' => 'php db ui css',
-        'src' => '../img/projects/midwest-connection/thumb/midwest-home-desktop.jpg',
+        'src' => $thumbnailPath . 'midwest.jpg',
         'link' => 'web/midwest-connection.php'
     ),
     array(
         'name' => 'Kingdom Prep',
         'tags' => 'wp php ui sass',
-        'src' => '../img/projects/kingdom-prep/thumb/kp-home-desktop.jpg',
+        'src' => $thumbnailPath . 'kp.jpg',
         'link' => 'web/kingdom-prep-lutheran-high-school.php'
     ),
     array(
         'name' => 'Costog',
         'tags' => 'vue boot sass js db',
-        'src' => '../img/projects/costog/thumb/Costog-Home-Desktop-1280p.webp',
+        'src' => $thumbnailPath . 'costog.jpg',
         'link' => 'web/costog.php'
     ),
     array(
         'name' => 'Books Plugin',
         'tags' => 'wp php sass',
-        'src' => '../img/projects/books/thumb/home.jpg',
+        'src' => $thumbnailPath . 'books.jpg',
         'link' => 'web/books-plugin.php'
     ),
     array(
         'name' => 'DataMed',
         'tags' => 'ui',
-        'src' => '../img/projects/datamed/thumb/home-desktop.jpg',
+        'src' => $thumbnailPath . 'datamed.jpg',
         'link' => 'web/datamed.php'
     ),
     array(
         'name' => 'WCTC',
         'tags' => 'ui',
-        'src' => '../img/projects/wctc/thumb/course-search-tablet.jpg',
+        'src' => $thumbnailPath . 'wctc.jpg',
         'link' => 'web/wctc.php'
     ),
     array(
         'name' => 'Yale School of Art',
         'tags' => 'ui php sass boot',
-        'src' => '../img/projects/yale/thumb/Yale-Home.jpg',
+        'src' => $thumbnailPath . 'yale.jpg',
         'link' => 'web/yale-school-of-art.php'
     ),
     array(
         'name' => 'OSBD',
         'tags' => 'sass boot',
-        'src' => '../img/projects/osbd/thumb/OSBD-Home-Desktop.jpg',
+        'src' => $thumbnailPath . 'osbd.jpg',
         'link' => 'web/milwaukee-office-of-small-business-development.php'
     ),
     array(
         'name' => 'Rock Paper Scissors',
         'tags' => 'js jq css',
-        'src' => '../img/projects/rock-paper-scissors/thumb/Home.jpg',
+        'src' => $thumbnailPath . 'rps.jpg',
         'link' => 'web/rock-paper-scissors-lizard-spock.php'
     ),
     array(
         'name' => 'Tozai Hotel',
         'tags' => 'ui css',
-        'src' => '../img/projects/tozai-hotel/thumb/Tozai-Home-Desktop.jpg',
+        'src' => $thumbnailPath . 'tozai.jpg',
         'link' => 'web/tozai-hotel.php'
     ),
     array(
         'name' => 'Seating Chart Generator',
         'tags' => 'js jq css',
-        'src' => '../img/projects/seating-chart-generator/thumb/Seating-Full.jpg',
+        'src' => $thumbnailPath . 'seating.jpg',
         'link' => 'web/seating-chart-generator.php'
     ),
 ];

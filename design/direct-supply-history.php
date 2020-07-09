@@ -20,7 +20,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/direct-supply-history/feature.webp';
+$projectImage = '../img/projects/direct-supply-history/feature.png';
 $projectImageAlt = 'The Direct Supply history video displayed on a TV';
 
 

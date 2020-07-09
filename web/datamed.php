@@ -22,7 +22,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/datamed/feature.webp';
+$projectImage = '../img/projects/datamed/feature.png';
 $projectImageAlt = 'DataMed homepage displayed on a laptop.';
 
 
@@ -156,7 +156,7 @@ include "../includes/nav.php";
                             uk-margin-large-left
                             uk-margin-bottom
                             "
-                     data-src="../img/projects/datamed/highlight-1.webp"
+                     data-src="../img/projects/datamed/highlight-1.jpg"
                      alt="Datamed homepage."
                      uk-img>
 

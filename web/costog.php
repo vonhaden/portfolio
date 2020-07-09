@@ -27,7 +27,7 @@ $projectTags = [
 
 
 // Feature Image
-$projectImage = '../img/projects/costog/feature.webp';
+$projectImage = '../img/projects/costog/feature.png';
 $projectImageAlt = '';
 
 
@@ -38,46 +38,46 @@ $galleryPath = 'gallery/';
 $thumbnailPath = 'thumb/';
 $projectGallery = [
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Home-Desktop-1280p.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Home-Desktop-1280p.jpg',
         'caption' => 'Costog - Home',
         'alt' => 'Costog home page.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Desktop-1280p.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Desktop-1280p.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Home-Tablet.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Home-Tablet.jpg',
         'caption' => 'Costog - Home - Tablet',
         'alt' => 'Costog home page on a tablet.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Tablet.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Tablet.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Home-Phone.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Home-Phone.jpg',
         'caption' => 'Costog - Home - Mobile',
         'alt' => 'Costog home page on mobile.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Phone.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Home-Phone.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Photo.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Photo.jpg',
         'caption' => 'Costog - Photo Page',
         'alt' => 'Costog photo page example.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Photo.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Photo.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Upload.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Upload.jpg',
         'caption' => 'Costog - Photo Upload',
         'alt' => 'Costog photo upload page example.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Upload.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Upload.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Photo-Details.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Photo-Details.jpg',
         'caption' => 'Costog - Photo Upload Details',
         'alt' => 'Costog photo details page example.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Photo-Details.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Photo-Details.jpg'
     ),
     array(
-        'href' => $filePath . $galleryPath . 'Costog-Profile.webp',
+        'href' => $filePath . $galleryPath . 'Costog-Profile.jpg',
         'caption' => 'Costog - Profile Page',
         'alt' => 'Costog profile page example.',
-        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Profile.webp'
+        'thumbnail' => $filePath . $thumbnailPath . 'Costog-Profile.jpg'
     ),
 
 ];
