@@ -126,19 +126,17 @@ include "includes/nav.php";
                 </ul>
 
                 <div class="js-filter uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
-                    <?php
-                    foreach ($projects as $project) {
-                        echo '<a href="';
-                        echo $project['link'];
-                        echo '" class="image-link" data-tags="';
-                        echo $project[tags];
-                        echo '"><div class="link-box-outer uk-height-medium"><div class="link-box-inner uk-background-cover" data-src="';
-                        echo $project['src'];
-                        echo '" uk-img></div><div class="link-text">';
-                        echo $project['name'];
-                        echo '</div></div></a>';
-                    }
-                    ?>
+                    <?php foreach ($projects as $project) : ?>
+                        <a href="<?= $project['link'] ?>" class="image-link" data-tags="<?= $project['tags'] ?>">
+                            <div class="link-box-outer uk-height-medium">
+                                <div class="link-box-inner uk-background-cover" data-src="<?= $project['src'] ?>" uk-img>
+                                </div>
+                                <div class="link-text">
+                                    <?= $project['name'] ?>
+                                </div>
+                            </div>
+                        </a>
+                    <?php endforeach; ?>
                 </div>
 
             </div>
